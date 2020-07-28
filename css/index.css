@@ -1,0 +1,34 @@
+:root {
+  --bgfooter: #8ec1d9;
+  --text-white: white;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Amanda Regular";
+  src: url("../fonts/Amanda-Regular.ttf");
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bgfooter);
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+@media screen and (min-width: 1640px) {
+}
