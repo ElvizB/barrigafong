@@ -5,8 +5,13 @@
 }
 
 @font-face {
-  font-family: "Amanda Regular";
-  src: url("../fonts/Amanda-Regular.ttf");
+  font-family: "Montserrat Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("../fonts/Montserrat-Medium.ttf");
 }
 
 body::-webkit-scrollbar {
@@ -18,17 +23,32 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 480px) {
+.cita {
+  height: 150px;
+  background: #4565ad;
+  padding: 0 20px;
+}
+.grid-cita {
+  display: grid;
+  height: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.btn-cita {
+  background: white;
+  width: 100%;
+  height: 44px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: "Montserrat Medium";
 }
 
 @media screen and (min-width: 768px) {
+  .btn-cita {
+    width: 224px;
+  }
 }
 @media screen and (min-width: 1024px) {
-}
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1440px) {
-}
-@media screen and (min-width: 1640px) {
 }

@@ -1,14 +1,38 @@
-@media screen and (min-width: 480px) {
+.footer {
+  padding: 75px 20px 170px;
+  border: 1px solid;
+}
+.grid-footer {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+.footer-img {
+  padding-bottom: 1em;
+}
+
+.description-footer {
+  padding-bottom: 2em;
+}
+.description-footer p {
+  margin: 0;
+  font-family: "Montserrat Regular";
+  font-size: 16px;
+}
+.redes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5em;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1024px) {
-}
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1440px) {
-}
-@media screen and (min-width: 1640px) {
+  .description-footer p {
+    font-size: 20px;
+  }
+  .redes {
+    gap: 1.5em;
+  }
 }
