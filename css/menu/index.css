@@ -1,0 +1,43 @@
+.grid-nav-contacto {
+  background: #3a66a7;
+  height: 49px;
+}
+
+.nav-contacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 1500px;
+  margin: auto;
+  color: white;
+  justify-items: end;
+  align-items: center;
+  height: 100%;
+}
+.nav-contacto p {
+  margin: 0;
+}
+.grip-wp {
+  display: flex;
+}
+.grip-wp p {
+  font-family: "Montserrat Regular";
+  font-size: 20px;
+}
+
+.grid-menu {
+  max-width: 1500px;
+  margin: auto;
+}
+.nav_link_u {
+  display: grid;
+  grid-template-columns: 15% 15% 40% 15% 15%;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 1em;
+}
+.nav_link_u li a {
+  color: #191919;
+  font-size: 18px;
+  font-family: "Montserrat Regular";
+}

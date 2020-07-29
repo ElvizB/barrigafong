@@ -1,0 +1,30 @@
+.locales {
+  padding: 40px 0 0;
+}
+.grid-locales {
+  display: grid;
+}
+.info-local {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.descriptions-local h2 {
+  font-family: "Montserrat Regular";
+  font-weight: bold;
+  font-size: 22px;
+}
+.descriptions-local p {
+  font-family: "Montserrat Regular";
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-locales {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+}

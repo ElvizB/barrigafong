@@ -14,6 +14,15 @@
   src: url("../fonts/Montserrat-Medium.ttf");
 }
 
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -22,7 +31,146 @@ body::-webkit-scrollbar-thumb {
   background: var(--bgfooter);
   border-radius: 10px;
 }
+.rgba-red-strong,
+.rgba-red-strong:after {
+  background-color: rgba(95, 188, 218, 0.7);
+}
+/**********************************/
+.grid-service {
+  display: grid;
+}
+.descriptions-service {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+}
 
+.descriptions-service h4 {
+  font-family: "Montserrat Medium";
+  font-size: 20px;
+}
+.descriptions-service p {
+  font-family: "Montserrat Regular";
+  font-size: 11px;
+}
+.service-img img {
+  width: 100%;
+}
+
+/**************************/
+.vida {
+  background: #5fc4e1;
+  margin-bottom: 7em;
+}
+.grid-vida {
+  display: grid;
+}
+.grid-description-vida {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  padding: 30px 20px;
+  text-align: justify;
+}
+.content-title-vida {
+  line-height: 35px;
+  margin-bottom: 2.5em;
+}
+.title-vida {
+  font-family: "Montserrat Regular";
+  font-size: 20px;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+.subtitle-vida {
+  font-family: "Montserrat Regular";
+  font-size: 35px;
+  margin: 0;
+}
+.description-vida {
+  padding: 0 0 0 8px;
+}
+.description-vida p {
+  font-family: "Montserrat Light";
+  font-size: 17px;
+}
+.firma-vida {
+  text-align: center;
+}
+.firma-vida img {
+  width: 200px;
+}
+.bg-img-vida img {
+  width: 100%;
+}
+/*****************************/
+
+/**********/
+.salud {
+  padding: 0 20px;
+}
+.linea {
+  height: 120px;
+}
+.linea hr {
+  height: 1px;
+  transform: rotate(90deg);
+  background: #3a66a7;
+  width: 150px;
+}
+.grid-salud {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  height: 100%;
+  align-content: center;
+  padding: 0 0 50px;
+}
+.grid-description-salud {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  padding: 20px 0 0;
+}
+.comillas-pr {
+  font-size: 70px;
+  display: grid;
+  justify-content: right;
+  font-family: "Montserrat Light";
+}
+.content-comillas {
+  margin-top: 1em;
+  padding: 0 0px 0 15px;
+  font-family: "Montserrat Light";
+  font-size: 16px;
+}
+.content-comillas p {
+  margin: 0;
+  padding: 0;
+}
+.comillas-pr2 {
+  font-size: 70px;
+  transform: rotate(180deg);
+  display: grid;
+  justify-content: right;
+  font-family: "Montserrat Light";
+}
+.author-salud {
+  font-family: "Montserrat Light";
+  font-size: 16px;
+  text-align: center;
+  padding-top: 1em;
+}
+.title-salud h2 {
+  font-family: "Montserrat Medium";
+  font-size: 30px;
+  text-align: center;
+}
+/************************/
 .cita {
   height: 150px;
   background: #4565ad;
@@ -44,11 +192,144 @@ body::-webkit-scrollbar-thumb {
   color: black;
   font-family: "Montserrat Medium";
 }
+/********************************/
+.experiencia {
+  padding: 35px 20px;
+}
+.grid-exp {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+}
+.title-exp h2 {
+  color: #5fc4e1;
+  font-size: 29px;
+  max-width: 370px;
+  margin: auto;
+  font-family: "Montserrat Light";
+  margin-bottom: 4em;
+}
+.title-exp p {
+  font-family: "Montserrat Light";
+  font-size: 18px;
+  text-align: justify;
+}
 
 @media screen and (min-width: 768px) {
   .btn-cita {
     width: 224px;
   }
+  .content-comillas {
+    font-size: 23px;
+  }
+  .author-salud {
+    padding-top: 0em;
+    font-size: 23px;
+  }
+  .comillas-pr {
+    font-size: 100px;
+  }
+  .comillas-pr2 {
+    font-size: 100px;
+  }
+  .descriptions-service p {
+    font-size: 20px;
+  }
+  .descriptions-service h4 {
+    font-size: 30px;
+  }
+  .title-exp h2 {
+    font-size: 50px;
+    margin-bottom: 2.5em;
+    max-width: 550px;
+  }
+  .title-exp p {
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1110px) {
+  .linea {
+    height: 150px;
+  }
+  .grid-vida {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-description-vida {
+    padding: 0 20px;
+  }
+  .content-title-vida {
+    line-height: 45px;
+    margin: 0 0px 10px;
+  }
+  .title-vida {
+    font-size: 25px;
+    padding: 0 0 0 8px;
+  }
+  .subtitle-vida {
+    font-size: 50px;
+  }
+  .description-vida p {
+    font-size: 19px;
+  }
+  .firma-vida {
+    text-align: initial;
+  }
+  .grid-service {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .descriptions-service {
+    padding: 0 60px;
+  }
+  .descriptions-service p {
+    font-size: 15px;
+  }
+  .title-exp h2 {
+    font-size: 50px;
+    margin-bottom: 2.5em;
+  }
+  .title-exp p {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .experiencia {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .descriptions-service p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1540px) {
+  .content-title-vida {
+    line-height: 60px;
+    margin: 25px 0;
+  }
+  .title-vida {
+    font-size: 34px;
+  }
+  .subtitle-vida {
+    font-size: 80px;
+  }
+  .grid-description-vida {
+    padding: 0 100px 0 80px;
+  }
+  .description-vida p {
+    font-size: 22px;
+  }
+  .firma-vida img {
+    width: initial;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }

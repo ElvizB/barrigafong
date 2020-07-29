@@ -18,21 +18,15 @@ if($partes_ruta[0] == 'barrigafong.herokuapp.com'){
     $ruta_elegida = 'vistas/home.php';
   }else if (count($partes_ruta) == 2){
     switch($partes_ruta[1]){
-      case 'nosotros':
-        $ruta_elegida = 'vistas/nosotros.php';
-        break;
       case 'servicios':
         $ruta_elegida = 'vistas/servicios.php';
         break;
-        case 'galeria':
-          $ruta_elegida = 'vistas/galeria.php';
-          break;
-        case 'proyeccion-social':
-          $ruta_elegida = 'vistas/proyeccion-social.php';
-          break;
       case 'contacto':
         $ruta_elegida = 'vistas/contacto.php';
         break;
+        case 'locales':
+          $ruta_elegida = 'vistas/locales.php';
+          break;
       
     }
   }
