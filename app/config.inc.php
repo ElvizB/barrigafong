@@ -9,12 +9,12 @@
 //https://barrigafong.herokuapp.com/
 //http://localhost/fongperu
 
-define("SERVIDOR", "http://localhost/barrigafong");
-define("RUTA_SERVICIOS", SERVIDOR."/servicios");
-define("RUTA_CONTACTO", SERVIDOR."/contacto");
-define("RUTA_LOCALES", SERVIDOR."/locales");
+define("SERVIDOR", "https://barrigafong.herokuapp.com/");
+define("RUTA_SERVICIOS", SERVIDOR."servicios");
+define("RUTA_CONTACTO", SERVIDOR."contacto");
+define("RUTA_LOCALES", SERVIDOR."locales");
 
 //recursos
-define("RUTA_CSS", SERVIDOR . "/css/");
-define("RUTA_JS", SERVIDOR . "/js/");
-define("RUTA_IMG", SERVIDOR . "/images/");
+define("RUTA_CSS", SERVIDOR . "css/");
+define("RUTA_JS", SERVIDOR . "js/");
+define("RUTA_IMG", SERVIDOR . "images/");
