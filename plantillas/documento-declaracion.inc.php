@@ -21,6 +21,7 @@
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>menu/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>servicios/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>locales/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>footer/index.css" rel="stylesheet">

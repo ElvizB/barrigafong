@@ -1,0 +1,153 @@
+.servicio {
+  background: url(../../images/servicios/bg-servicio.png) no-repeat top;
+  background-size: cover;
+  height: 100vh;
+}
+.grid-servicio {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+.img-servicio {
+  text-align: center;
+  padding-bottom: 9em;
+}
+
+.grid-servicio h2 {
+  font-family: "Montserrat SemiBold";
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+}
+.grid-servicio p {
+  font-family: "Montserrat Light";
+  font-size: 22px;
+  color: white;
+}
+.grid-btn-cita {
+  margin: auto;
+  width: 255px;
+  background: white;
+  height: 44px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat Medium";
+}
+.grid-btn-cita a {
+  color: black;
+}
+.u-bg-precio {
+  background: #e980a9;
+  padding: 0 20px;
+  height: 355px;
+}
+.grid-precio {
+  display: grid;
+
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  color: white;
+}
+.title-precio p {
+  margin: 0;
+  font-family: "Montserrat SemiBold";
+  font-size: 29px;
+  max-width: 100%;
+  line-height: 45px;
+}
+.subtitle-precio p {
+  margin: 0;
+  font-family: "Montserrat Light";
+  font-size: 30px;
+}
+.precio-number {
+  line-height: 40px;
+}
+.desde {
+  font-family: "Montserrat Light";
+  font-size: 16px;
+  margin: 0;
+}
+.number-p {
+  font-size: 35px;
+  font-family: "Montserrat SemiBold";
+  margin: 0;
+}
+.grid-service-one {
+  display: grid;
+}
+.description-service-one {
+  background: #f4f4f4;
+}
+.content-service-one {
+  height: 100%;
+  padding: 30px 20px;
+}
+.title-service-one {
+  padding-bottom: 1em;
+}
+.title-service-one h2 {
+  font-family: "Montserrat Medium";
+}
+.title-service-one p {
+  font-family: "Montserrat Regular";
+}
+.btn-contacto {
+  font-family: "Montserrat Medium";
+  font-size: 23px;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+  .grid-servicio h2 {
+    font-size: 90px;
+  }
+  .grid-servicio p {
+    font-size: 23px;
+  }
+  .grid-precio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .title-precio p {
+    font-size: 40px;
+    max-width: 380px;
+  }
+  .desde {
+    font-size: 20px;
+  }
+  .number-p {
+    font-size: 50px;
+  }
+  .content-service-one {
+    padding: 30px 30px 20px 98px;
+  }
+  .title-service-one p {
+    font-size: 15px;
+  }
+  .title-service-one h2 {
+    font-size: 28px;
+  }
+  .grid-service-one {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content-service-one {
+    padding: 30px 60px 0 450px;
+  }
+  .title-service-one p {
+    font-size: 19px;
+  }
+  .title-service-one h2 {
+    font-size: 36px;
+  }
+}

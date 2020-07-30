@@ -22,7 +22,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="<?php echo RUTA_SERVICIOS ?>">
                             SERVICIOS
                         </a>
                     </li>

@@ -11,9 +11,9 @@ include_once 'plantillas/nav/index.php';
         <p>buenas manos</p>
     </div>
 </section>
-<?php include_once 'plantillas/slider/index.php';?>
-<section>
 
+<section>
+    <?php include_once 'plantillas/slider/index.php';?>
 </section>
 
 <section class="experiencia">
