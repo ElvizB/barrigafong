@@ -1,5 +1,5 @@
 :root {
-  --bgfooter: #8ec1d9;
+  --bgfooter: #3a66a7;
   --text-white: white;
   font-size: 16px;
 }
@@ -23,6 +23,13 @@
   src: url("../fonts/Montserrat-SemiBold.ttf");
 }
 
+.carousel-indicators {
+}
+
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
+  display: none;
+}
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -34,6 +41,37 @@ body::-webkit-scrollbar-thumb {
 .rgba-red-strong,
 .rgba-red-strong:after {
   background-color: rgba(95, 188, 218, 0.7);
+}
+
+/****************************************************/
+.cabecera {
+  box-shadow: inset 2px 4px 7px 0px rgba(0, 0, 0, 0.1);
+  height: 259px;
+}
+
+.bg-cabecera {
+  position: absolute;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  top: 250px;
+  z-index: 2;
+  line-height: 50px;
+}
+.bg-cabecera h2 {
+  margin: 0;
+  font-size: 90px;
+  max-width: 700px;
+  text-align: center;
+  font-family: "Montserrat Light";
+}
+.bg-cabecera p {
+  margin: 0;
+  font-size: 90px;
+  max-width: 700px;
+  text-align: center;
+  font-family: "Montserrat Regular";
+  font-weight: bold;
 }
 /**********************************/
 .grid-service {

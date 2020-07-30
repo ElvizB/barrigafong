@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
+    <meta name="theme-color" content="#3a66a7">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.ico">
     <!-- Font Awesome -->
@@ -16,8 +17,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>owl/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>owl/owl.theme.default.min.css" rel="stylesheet">
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
