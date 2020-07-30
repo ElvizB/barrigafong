@@ -11,77 +11,9 @@ include_once 'plantillas/nav/index.php';
         <p>buenas manos</p>
     </div>
 </section>
-
+<?php include_once 'plantillas/slider/index.php';?>
 <section>
-    <!--Carousel Wrapper-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-2" data-slide-to="1"></li>
-            <li data-target="#carousel-example-2" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="view">
-                    <img class="d-block w-100" src="<?php echo RUTA_IMG?>home/banner1.png" alt="First slide">
-                    <!-----------------
-                  <div class="mask rgba-black-slight"></div>
-                -------------------------->
-                </div>
-                <!-------------
-             <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
-            </div>
-            ------------------------------------>
-            </div>
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <img class="d-block w-100" src="<?php echo RUTA_IMG?>home/banner2.png" alt="Second slide">
-                    <!-----------------
-                  <div class="mask rgba-black-slight"></div>
-                -------------------------->
-                </div>
-                <!-------------
-             <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
-            </div>
-            ------------------------------------>
-            </div>
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <img class="d-block w-100" src="<?php echo RUTA_IMG?>home/banner3.png" alt="Third slide">
-                    <!-----------------
-                  <div class="mask rgba-black-slight"></div>
-                -------------------------->
-                </div>
-                <!-------------
-             <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
-            </div>
-            ------------------------------------>
-            </div>
-        </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
-    </div>
-    <!--/.Carousel Wrapper-->
+
 </section>
 
 <section class="experiencia">
@@ -164,12 +96,12 @@ include_once 'plantillas/nav/index.php';
         </div>
     </div>
 </section>
-
+<!----->
 <section class="service">
     <div class="grid-service">
         <!--Zoom effect-->
         <div class="view overlay zoom service-img">
-            <img src="<?php echo RUTA_IMG?>home/1.png" draggable="false" class="img-fluid" />
+            <img src="<?php echo RUTA_IMG?>home/uno.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Apendicectomía</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
