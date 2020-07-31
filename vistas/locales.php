@@ -5,7 +5,7 @@ include_once 'plantillas/nav/index.php';
 ?>
 <section class="locales">
     <div class="grid-locales">
-        <div class="info-local">
+        <div class="info-local wow fadeIn" data-wow-delay="0.4s">
             <div class="descriptions-local">
                 <h2>PISCO</h2>
                 <p>
@@ -35,7 +35,7 @@ include_once 'plantillas/nav/index.php';
             </div>
         </div>
     </div>
-    <div class="grid-locales">
+    <div class="grid-locales-two">
         <div class="map-local">
             <div id="map-container-section" class="map-container-section z-depth-1" style="height: 500px">
                 <iframe
@@ -45,7 +45,7 @@ include_once 'plantillas/nav/index.php';
 
             </div>
         </div>
-        <div class="info-local">
+        <div class="info-local wow fadeIn" data-wow-delay="0.4s">
             <div class="descriptions-local">
                 <h2>ICA</h2>
                 <p>
@@ -65,7 +65,7 @@ include_once 'plantillas/nav/index.php';
     </div>
 
     <div class="grid-locales">
-        <div class="info-local">
+        <div class="info-local wow fadeIn" data-wow-delay="0.4s">
             <div class="descriptions-local">
                 <h2>NASCA</h2>
                 <p>

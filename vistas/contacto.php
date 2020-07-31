@@ -6,7 +6,7 @@ include_once 'plantillas/nav/index.php';
 
 <section class="contacto">
     <div class="grid-contacto">
-        <div class="bg-info-contacto">
+        <div class="bg-info-contacto wow fadeInUp" data-wow-delay="0.4s">
             <div class="info-contacto">
                 <div>
                     <img src="<?php echo RUTA_IMG?>footer/icon.png" draggable="false" class="img-fluid" />
@@ -41,7 +41,7 @@ include_once 'plantillas/nav/index.php';
             </div>
         </div>
         <div class="form-contacto">
-            <div class="grid-form-contacto">
+            <div class="grid-form-contacto wow fadeInUp" data-wow-delay="0.4s">
                 <form id="formulario" class="form" role="form" action="" method="POST">
 
                     <div class="grid-inputs">

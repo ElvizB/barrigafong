@@ -18,7 +18,7 @@ include_once 'plantillas/nav/index.php';
 
 <section class="experiencia">
     <div class="grid-exp">
-        <div class="title-exp">
+        <div class="title-exp wow fadeIn" data-wow-delay="0.4s">
             <h2>CONFIANZA
                 EXPERIENCIA
                 PROFESIONALISMO</h2>
@@ -40,7 +40,7 @@ include_once 'plantillas/nav/index.php';
         <div class="bg-img-vida">
             <img src="<?php echo RUTA_IMG?>home/bg-v.png" draggable="false" class="img-fluid" />
         </div>
-        <div class="grid-description-vida">
+        <div class="grid-description-vida wow fadeIn" data-wow-delay="0.4s">
             <div class="content-title-vida">
                 <p class="title-vida">DR.</p>
                 <p class="subtitle-vida">Barriga Fong</p>
@@ -69,30 +69,103 @@ include_once 'plantillas/nav/index.php';
 </section>
 
 <section class="salud">
+    <div class="linea">
+        <hr />
+    </div>
+    <div class="title-salud">
+        <h2>Tu salud importa</h2>
+    </div>
     <div class="grid-salud">
-        <div class="linea">
-            <hr />
-        </div>
-        <div class="title-salud">
-            <h2>Tu salud importa</h2>
-        </div>
-        <div class="grid-description-salud">
-            <div>
-                <span class="comillas-pr">“</span>
+
+        <div class="owl-carousel owl-theme wow fadeIn" data-wow-delay="0.4s" id="slider-testimonio">
+            <div class="item">
+                <div class="grid-description-salud">
+                    <div>
+                        <span class="comillas-pr">“</span>
+                    </div>
+                    <div class="content-comillas">
+                        <p>
+                            Excelente médico que trabaja con un estupendo equipo multidisciplinario, capacitados en la
+                            materia,
+                            con actitud admirable y un corazón de servicio.
+                            No solo cura lo físico, también alienta el alma con seguridad y esperanza.
+                        </p>
+                    </div>
+                    <div class="comillas-pr2">
+                        <span>“</span>
+                    </div>
+                </div>
+                <div class="author-salud">
+                    <p>J Elias CM</p>
+                </div>
             </div>
-            <div class="content-comillas">
-                <p>
-                    Excelente médico que trabaja con un estupendo equipo multidisciplinario, capacitados en la materia,
-                    con actitud admirable y un corazón de servicio.
-                    No solo cura lo físico, también alienta el alma con seguridad y esperanza.
-                </p>
+            <div class="item">
+                <div class="grid-description-salud">
+                    <div>
+                        <span class="comillas-pr">“</span>
+                    </div>
+                    <div class="content-comillas">
+                        <p>
+                            Primero su humanidad, acompañada de su extremada afabilidad, amabilidad y cariñoso trato
+                            hacia un paciente, sin importar su condición social.
+                            Segundo su profesionalismo y celo en medio de sus consultas e intervenciones quirúrgicas, su
+                            sonrisa y paciencia, que te hacen sentir cómoda y confiada, ante cualquier dolencia la más
+                            extrema que involucre su campo médico...
+                            En resumen un hombre de Dios... Dios bendiga a este joven profesional de la ciencia médica.
+                        </p>
+                    </div>
+                    <div class="comillas-pr2">
+                        <span>“</span>
+                    </div>
+                </div>
+                <div class="author-salud">
+                    <p> Ana María Calmet</p>
+                </div>
             </div>
-            <div class="comillas-pr2">
-                <span>“</span>
+            <div class="item">
+                <div class="grid-description-salud">
+                    <div>
+                        <span class="comillas-pr">“</span>
+                    </div>
+                    <div class="content-comillas">
+                        <p>
+                            Excelente profesional, que no solo se evoca a lo profesional, sino que tiene lo que se ha
+                            perdido en algunos profesionales: el lado HUMANO. Agradezco de todo corazón al Dr. porque
+                            operó a mi hermano.
+                        </p>
+                    </div>
+                    <div class="comillas-pr2">
+                        <span>“</span>
+                    </div>
+                </div>
+                <div class="author-salud">
+                    <p> Fabiola PG</p>
+                </div>
             </div>
-        </div>
-        <div class="author-salud">
-            <p>J Elias CM</p>
+            <div class="item">
+                <div class="grid-description-salud">
+                    <div>
+                        <span class="comillas-pr">“</span>
+                    </div>
+                    <div class="content-comillas">
+                        <p>
+                            Aparte de ser un gran médico, es un ser humano increible. Mi hijo se operó con el Dr. y la
+                            operación fue un éxito. Todas las veces que sentía alguna duda con respecto al post
+                            operatorio, inmediatamente contestaba mis mensajes y me daba las pautas necesarias para mi
+                            tranquilidad. Muchas gracias, lo recomiendo al 100%.
+
+
+                        </p>
+                    </div>
+                    <div class="comillas-pr2">
+                        <span>“</span>
+                    </div>
+                </div>
+                <div class="author-salud">
+                    <p> Marielena Berrospi</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -100,7 +173,7 @@ include_once 'plantillas/nav/index.php';
 <section class="service">
     <div class="grid-service">
         <!--Zoom effect-->
-        <div class="view overlay zoom service-img">
+        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
             <img src="<?php echo RUTA_IMG?>home/uno.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Apendicectomía</h4>
@@ -109,7 +182,7 @@ include_once 'plantillas/nav/index.php';
                     accumsan lacus vel facilisis. </p>
             </div>
         </div>
-        <div class="view overlay zoom service-img">
+        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
             <img src="<?php echo RUTA_IMG?>home/2.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Fistulectomía perianal</h4>
@@ -118,7 +191,7 @@ include_once 'plantillas/nav/index.php';
                     accumsan lacus vel facilisis. </p>
             </div>
         </div>
-        <div class="view overlay zoom service-img">
+        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
             <img src="<?php echo RUTA_IMG?>home/3.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Hemorroidectomía</h4>
@@ -127,7 +200,7 @@ include_once 'plantillas/nav/index.php';
                     accumsan lacus vel facilisis. </p>
             </div>
         </div>
-        <div class="view overlay zoom service-img">
+        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
             <img src="<?php echo RUTA_IMG?>home/4.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Hernioplastía umbilical</h4>
@@ -136,7 +209,7 @@ include_once 'plantillas/nav/index.php';
                     accumsan lacus vel facilisis. </p>
             </div>
         </div>
-        <div class="view overlay zoom service-img">
+        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
             <img src="<?php echo RUTA_IMG?>home/5.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Hernioplastía inguinal</h4>
@@ -145,7 +218,7 @@ include_once 'plantillas/nav/index.php';
                     accumsan lacus vel facilisis. </p>
             </div>
         </div>
-        <div class="view overlay zoom service-img">
+        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
             <img src="<?php echo RUTA_IMG?>home/6.png" draggable="false" class="img-fluid" />
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Colecistectomía</h4>

@@ -4,12 +4,18 @@
 .grid-locales {
   display: grid;
 }
+.grid-locales-two {
+  display: flex;
+  flex-direction: column-reverse;
+}
 .info-local {
   display: grid;
   height: 100%;
   align-content: center;
   justify-content: center;
-  text-align: center;
+  text-align: initial;
+  padding: 40px 0px;
+  box-shadow: inset 5px -2px 20px 0px rgba(0, 0, 0, 0.1);
 }
 .descriptions-local h2 {
   font-family: "Montserrat Regular";
@@ -25,6 +31,14 @@
   .grid-locales {
     grid-template-columns: 50% 50%;
   }
+  .grid-locales-two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 @media screen and (min-width: 1024px) {
+  .info-local {
+    text-align: center;
+    padding: 0px 0px;
+  }
 }

@@ -18,6 +18,9 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
 
+    <link href="<?php echo RUTA_CSS?>owl/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>owl/owl.theme.default.min.css" rel="stylesheet">
+
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>menu/index.css" rel="stylesheet">

@@ -48,5 +48,32 @@
 
             </div>
         </div>
+        <nav id="navbar-movil">
+            <div id="toggleIcon" onclick="menuToggle()"></div>
+            <div id="menu-overlay">
+                <ul>
+                    <li>
+                        <a href="<?php echo SERVIDOR ?>">
+                            INICIO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php echo RUTA_SERVICIOS ?>">
+                            SERVICIOS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php echo RUTA_CONTACTO ?>">
+                            CONTACTO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php echo RUTA_LOCALES ?>">
+                            LOCALES
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 </header>

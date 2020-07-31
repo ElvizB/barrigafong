@@ -1,6 +1,9 @@
 .contacto {
   padding: 40px 0 0;
 }
+.form-contacto {
+  box-shadow: inset -9px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
 .grid-contacto {
   display: grid;
 }
@@ -34,7 +37,7 @@
   display: grid;
   height: 100%;
   align-content: center;
-  padding: 0 20px;
+  padding: 40px 20px;
 }
 .btn-enviar {
   width: 330px;
@@ -46,8 +49,11 @@
 }
 .grid-inputs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+.md-form {
+  margin-bottom: 0rem;
 }
 @media screen and (min-width: 768px) {
 }
@@ -56,13 +62,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .grid-form-contacto {
-    display: grid;
-    height: 100%;
-    align-content: center;
     padding: 0 100px 0 60px;
   }
   .grid-inputs {
-    gap: 1em;
   }
   .datos-contacto {
     font-size: 30px;

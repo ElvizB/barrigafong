@@ -1,5 +1,5 @@
 .footer {
-  padding: 75px 20px 170px;
+  padding: 75px 20px 80px;
 }
 .grid-footer {
   display: grid;
@@ -25,13 +25,42 @@
   align-items: center;
 }
 
+.grid-floatig-wp {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 39px;
+  background: #3a66a7;
+  width: 60px;
+  display: grid;
+  height: 60px;
+  justify-items: center;
+  align-items: center;
+  z-index: 2;
+}
+.grid-floatig-wp a {
+  width: 35px;
+}
+.grid-nav-contacto {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1110px) {
   .description-footer p {
     font-size: 20px;
   }
   .redes {
     gap: 1.5em;
+  }
+  .footer {
+    padding: 75px 20px 170px;
+  }
+  .grid-nav-contacto {
+    display: block;
+  }
+  .floating-wp {
+    display: none;
   }
 }

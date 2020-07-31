@@ -41,11 +41,17 @@
 .grid-btn-cita a {
   color: black;
 }
-.u-bg-precio {
+.u-bg-precio-one {
+  background: #00abbf;
+  padding: 0 20px;
+  height: 355px;
+}
+.u-bg-precio-two {
   background: #e980a9;
   padding: 0 20px;
   height: 355px;
 }
+
 .grid-precio {
   display: grid;
 
@@ -57,7 +63,7 @@
 .title-precio p {
   margin: 0;
   font-family: "Montserrat SemiBold";
-  font-size: 29px;
+  font-size: 24px;
   max-width: 100%;
   line-height: 45px;
 }
@@ -79,23 +85,47 @@
   font-family: "Montserrat SemiBold";
   margin: 0;
 }
+.service-one {
+  box-shadow: -1px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
 .grid-service-one {
   display: grid;
+}
+.grid-service-two {
+  display: flex;
+  flex-direction: column-reverse;
 }
 .description-service-one {
   background: #f4f4f4;
 }
+.description-service-two {
+  background: #f4f4f4;
+  box-shadow: inset 3px 7px 20px 0px rgba(0, 0, 0, 0.1);
+}
 .content-service-one {
+  height: 100%;
+  padding: 30px 20px;
+}
+.content-service-two {
   height: 100%;
   padding: 30px 20px;
 }
 .title-service-one {
   padding-bottom: 1em;
 }
+.title-service-two {
+  padding-bottom: 1em;
+}
 .title-service-one h2 {
   font-family: "Montserrat Medium";
 }
 .title-service-one p {
+  font-family: "Montserrat Regular";
+}
+.title-service-two h2 {
+  font-family: "Montserrat Medium";
+}
+.title-service-two p {
   font-family: "Montserrat Regular";
 }
 .btn-contacto {
@@ -138,16 +168,41 @@
   .grid-service-one {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .content-service-two {
+    padding: 30px 30px 20px 98px;
+  }
+  .title-service-two p {
+    font-size: 15px;
+  }
+  .title-service-two h2 {
+    font-size: 28px;
+  }
+  .grid-service-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .content-service-one {
-    padding: 30px 60px 0 450px;
+    box-shadow: inset -1px 4px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px 450px 20px 60px;
   }
   .title-service-one p {
     font-size: 19px;
   }
   .title-service-one h2 {
+    font-size: 36px;
+  }
+
+  .content-service-two {
+    padding: 30px 60px 20px 450px;
+  }
+  .title-service-two p {
+    font-size: 19px;
+  }
+  .title-service-two h2 {
     font-size: 36px;
   }
 }

@@ -54,20 +54,21 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   display: grid;
   justify-content: center;
-  top: 250px;
+  top: 110px;
   z-index: 2;
   line-height: 50px;
+  padding: 0 20px;
 }
 .bg-cabecera h2 {
   margin: 0;
-  font-size: 90px;
+  font-size: 50px;
   max-width: 700px;
   text-align: center;
   font-family: "Montserrat Light";
 }
 .bg-cabecera p {
   margin: 0;
-  font-size: 90px;
+  font-size: 45px;
   max-width: 700px;
   text-align: center;
   font-family: "Montserrat Regular";
@@ -148,7 +149,7 @@ body::-webkit-scrollbar-thumb {
 
 /**********/
 .salud {
-  padding: 0 20px;
+  padding: 50px 20px;
 }
 .linea {
   height: 120px;
@@ -160,13 +161,10 @@ body::-webkit-scrollbar-thumb {
   width: 150px;
 }
 .grid-salud {
-  width: 100%;
-  max-width: 1400px;
+  max-width: 1024px;
   margin: auto;
-  display: grid;
-  height: 100%;
-  align-content: center;
-  padding: 0 0 50px;
+  padding: 10px 0px;
+  text-align: center;
 }
 .grid-description-salud {
   text-align: center;
@@ -264,7 +262,6 @@ body::-webkit-scrollbar-thumb {
     font-size: 23px;
   }
   .author-salud {
-    padding-top: 0em;
     font-size: 23px;
   }
   .comillas-pr {
@@ -338,6 +335,16 @@ body::-webkit-scrollbar-thumb {
 
   .experiencia {
     padding: 70px 0;
+  }
+  .bg-cabecera {
+    top: 300px;
+    padding: 0 0px;
+  }
+  .bg-cabecera h2 {
+    font-size: 90px;
+  }
+  .bg-cabecera p {
+    font-size: 90px;
   }
 }
 
