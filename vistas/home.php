@@ -5,12 +5,6 @@ include_once 'plantillas/nav/index.php';
 ?>
 
 
-<section class="cabecera">
-    <div class="bg-cabecera">
-        <h2>Bienestar en</h2>
-        <p>buenas manos</p>
-    </div>
-</section>
 
 <section>
     <?php include_once 'plantillas/slider/index.php';?>
@@ -173,61 +167,340 @@ include_once 'plantillas/nav/index.php';
 <section class="service">
     <div class="grid-service">
         <!--Zoom effect-->
-        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
+        <div class="view overlay zoom service-img wow zoomIn position_r" data-wow-delay="0.4s" data-toggle="modal"
+            data-target="#f_1">
+
             <img src="<?php echo RUTA_IMG?>home/uno.png" draggable="false" class="img-fluid" />
+            <h4 class="title-servicios-ab">Apendicectomía</h4>
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Apendicectomía</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. </p>
+                <p>El apéndice se extrae a través de pequeños cortes, por los cuales se introduce una pequeña cámara y
+                    los instrumentos quirúrgicos. En este tipo de cirugía la recuperación es más rápida y la cicatriz es
+                    más pequeña, pudiendo ser casi imperceptible. </p>
             </div>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="f_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="bg-modal-service">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-service-modal">
+                                <div class="description-service-modal">
+                                    <h2>Apendicectomía</h2>
+
+                                </div>
+                                <div class="title-beneficio">
+                                    <h4>INCLUYE :</h4>
+                                    <ul class="link_check">
+                                        <li>Exámenes pre-quirúrgicos.</li>
+                                        <li>Dos Cirujanos (Cirujanos generales y laparoscópicos).</li>
+                                        <li>Un Médico Anestesiólogo.</li>
+                                        <li>Dos enfermeras.</li>
+                                        <li>Técnicas de enfermería.</li>
+                                        <li>Un día de hospitalización.</li>
+                                        <li>Medicamentos durante la hospitalización.</li>
+                                        <li>Medicamentos al alta.</li>
+                                        <li>Controles post operatorios.</li>
+                                    </ul>
+                                </div>
+                                <div class="precio-serv">
+                                    <p class="desde"><i>DESDE</i></p>
+                                    <p class="number-p">S/2500</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
-        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
+        <div class="view overlay zoom service-img wow zoomIn position_r" data-wow-delay="0.4s" data-toggle="modal"
+            data-target="#f_2">
             <img src="<?php echo RUTA_IMG?>home/2.png" draggable="false" class="img-fluid" />
+            <h4 class="title-servicios-ab">Fistulectomía perianal</h4>
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Fistulectomía perianal</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. </p>
+                <p>Mediante el procedimiento quirúrgico se espera eliminar de manera definitiva la fístula, con la
+                    consiguiente desaparición de las molestias dolorosas, supuración, inflamación e infección que
+                    conlleva, así como la contaminación de los tejidos perianales en los que se producen los abscesos.
+                </p>
             </div>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="f_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="bg-modal-service">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-service-modal">
+                                <div class="description-service-modal">
+                                    <h2>Fistulectomía perianal</h2>
+
+                                </div>
+                                <div class="title-beneficio">
+                                    <h4>INCLUYE :</h4>
+                                    <ul class="link_check">
+                                        <li>Exámenes pre-quirúrgicos</li>
+                                        <li>Dos Cirujanos Cirujanos generales y laparoscópicos.</li>
+                                        <li>Un Médico Anestesiólogo.</li>
+                                        <li>Dos enfermeras.</li>
+                                        <li>Técnicas de enfermería.</li>
+                                        <li>Un día de hospitalización.</li>
+                                        <li>Medicamentos durante la hospitalización.</li>
+                                        <li>Medicamentos al alta.</li>
+                                    </ul>
+                                </div>
+                                <div class="precio-serv">
+                                    <p class="desde"><i>DESDE</i></p>
+                                    <p class="number-p">S/2500</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
-        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
+        <div class="view overlay zoom service-img wow zoomIn position_r" data-wow-delay="0.4s" data-toggle="modal"
+            data-target="#f_3">
             <img src="<?php echo RUTA_IMG?>home/3.png" draggable="false" class="img-fluid" />
+            <h4 class="title-servicios-ab">Hemorroidectomía</h4>
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Hemorroidectomía</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. </p>
+                <p>Las hemorroides son pequeñas varices que se sitúan en el canal anal. Se producen cuando las venas
+                    situadas en la zona del ano se dilatan excesivamente. Esta cirugía es un tratamiento seguro y eficaz
+                    con un menor dolor postoperatorio y una incorporación más pronta a su vida diaria </p>
             </div>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="f_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="bg-modal-service">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-service-modal">
+                                <div class="description-service-modal">
+                                    <h2>Hemorroidectomía</h2>
+
+                                </div>
+                                <div class="title-beneficio">
+                                    <h4>INCLUYE :</h4>
+                                    <ul class="link_check">
+                                        <li>Exámenes pre-quirúrgicos.</li>
+                                        <li>Dos Cirujanos Cirujanos generales y laparoscópicos.</li>
+                                        <li>Un Médico Anestesiólogo.</li>
+                                        <li>Dos enfermeras.</li>
+                                        <li>Técnicas de enfermería.</li>
+                                        <li>Un día de hospitalización.</li>
+                                        <li>Medicamentos durante la hospitalización.</li>
+                                        <li>Medicamentos al alta.</li>
+                                        <li>Controles post operatorios.</li>
+                                    </ul>
+                                </div>
+                                <div class="precio-serv">
+                                    <p class="desde"><i>DESDE</i></p>
+                                    <p class="number-p">S/2500</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
-        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
+        <div class="view overlay zoom service-img wow zoomIn position_r" data-wow-delay="0.4s" data-toggle="modal"
+            data-target="#f_4">
             <img src="<?php echo RUTA_IMG?>home/4.png" draggable="false" class="img-fluid" />
+            <h4 class="title-servicios-ab">Hernioplastía umbilical</h4>
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Hernioplastía umbilical</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. </p>
+                <p>La hernia umbilical se reparará usando un laparoscopio. Este es un tubo delgado y con luz que le
+                    permite al médico ver dentro del abdomen. El laparoscopio se introducirá a través de una de varias
+                    pequeñas incisiones. Los instrumentos se insertarán a través de los otros cortes. </p>
             </div>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="f_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="bg-modal-service">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-service-modal">
+                                <div class="description-service-modal">
+                                    <h2>Hernioplastía umbilical</h2>
+
+                                </div>
+                                <div class="title-beneficio">
+                                    <h4>INCLUYE :</h4>
+                                    <ul class="link_check">
+                                        <li>Exámenes pre-quirúrgicos.</li>
+                                        <li>Dos Cirujanos Cirujanos generales y laparoscópicos.</li>
+                                        <li>Un Médico Anestesiólogo.</li>
+                                        <li>Dos enfermeras.</li>
+                                        <li>Técnicas de enfermería.</li>
+                                        <li>Un día de hospitalización.</li>
+                                        <li>Medicamentos durante la hospitalización.</li>
+                                        <li>Medicamentos al alta.</li>
+                                        <li>Controles post operatorios.</li>
+                                    </ul>
+                                </div>
+                                <div class="precio-serv">
+                                    <p class="desde"><i>DESDE</i></p>
+                                    <p class="number-p">S/2000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
-        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
+        <div class="view overlay zoom service-img wow zoomIn position_r" data-wow-delay="0.4s" data-toggle="modal"
+            data-target="#f_5">
             <img src="<?php echo RUTA_IMG?>home/5.png" draggable="false" class="img-fluid" />
+            <h4 class="title-servicios-ab">Hernioplastía inguinal</h4>
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Hernioplastía inguinal</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. </p>
+                <p>La reparación de la hernia por laparoscopia se realiza a través de tres pequeñas incisiones a la
+                    altura del ombligo de unos 0,5-1 cm. A través de uno de los orificios se introduce una pequeña
+                    cámara conectada a un monitor; a través de los otros dos orificios el cirujano puede trabajar y
+                    reparar la hernia colocando una malla que se fija con clips absorbibles o adhesivo sellante.</p>
             </div>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="f_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="bg-modal-service">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-service-modal">
+                                <div class="description-service-modal">
+                                    <h2>Hernioplastía inguinal</h2>
+
+                                </div>
+                                <div class="title-beneficio">
+                                    <h4>INCLUYE :</h4>
+                                    <ul class="link_check">
+                                        <li>Exámenes pre-quirúrgicos.</li>
+                                        <li>Incluye malla de polipropileno.</li>
+                                        <li>Dos Cirujanos Cirujanos generales y laparoscópicos.</li>
+                                        <li>Un Médico Anestesiólogo.</li>
+                                        <li>Dos enfermeras.</li>
+                                        <li>Técnicas de enfermería.</li>
+                                        <li>Un día de hospitalización.</li>
+                                        <li>Medicamentos durante la hospitalización.</li>
+                                        <li>Medicamentos al alta.</li>
+                                        <li>Controles post operatorios.</li>
+
+                                    </ul>
+                                </div>
+                                <div class="precio-serv">
+                                    <p class="desde"><i>DESDE</i></p>
+                                    <p class="number-p">S/2500</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
-        <div class="view overlay zoom service-img wow zoomIn" data-wow-delay="0.4s">
+        <div class="view overlay zoom service-img wow zoomIn position_r" data-wow-delay="0.4s" data-toggle="modal"
+            data-target="#f_6">
             <img src="<?php echo RUTA_IMG?>home/6.png" draggable="false" class="img-fluid" />
+            <h4 class="title-servicios-ab">Colecistectomía</h4>
             <div class="mask waves-effect waves-light rgba-red-strong descriptions-service">
                 <h4>Colecistectomía</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. </p>
+                <p>La operación se realiza para extirpar la vesícula biliar debido a la presencia de cálculos biliares
+                    que causan dolor o una infección. La vesícula biliar es extirpada con instrumentos que se colocan en
+                    pequeñas incisiones en el abdomen. </p>
             </div>
-        </div>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="f_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
 
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="bg-modal-service">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-service-modal">
+                                <div class="description-service-modal">
+                                    <h2>Hernioplastía inguinal</h2>
+
+                                </div>
+                                <div class="title-beneficio">
+                                    <h4>INCLUYE :</h4>
+                                    <ul class="link_check">
+                                        <li>Exámenes pre-quirúrgicos.</li>
+                                        <li>Dos Cirujanos Cirujanos generales y laparoscópicos.</li>
+                                        <li>Un Médico Anestesiólogo.</li>
+                                        <li>Dos enfermeras.</li>
+                                        <li>Técnicas de enfermería.</li>
+                                        <li>Un día de hospitalización.</li>
+                                        <li>Medicamentos durante la hospitalización.</li>
+                                        <li>Medicamentos al alta.</li>
+                                        <li>Controles post operatorios.</li>
+                                    </ul>
+                                </div>
+                                <div class="precio-serv">
+                                    <p class="desde"><i>DESDE</i></p>
+                                    <p class="number-p">S/3500</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
+        </div>
     </div>
 </section>
 

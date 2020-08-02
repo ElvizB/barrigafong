@@ -41,168 +41,157 @@
 .grid-btn-cita a {
   color: black;
 }
-.u-bg-precio-one {
-  background: #00abbf;
-  padding: 0 20px;
-  height: 355px;
-}
-.u-bg-precio-two {
-  background: #e980a9;
-  padding: 0 20px;
-  height: 355px;
-}
-
-.grid-precio {
+.grid-servicio-options {
   display: grid;
-
-  align-items: center;
-  justify-items: center;
-  height: 100%;
-  color: white;
 }
-.title-precio p {
-  margin: 0;
-  font-family: "Montserrat SemiBold";
-  font-size: 24px;
-  max-width: 100%;
-  line-height: 45px;
+.grid-description-options {
+  padding: 20px 20px;
 }
-.subtitle-precio p {
-  margin: 0;
-  font-family: "Montserrat Light";
-  font-size: 30px;
+.grid-description-options h2 {
+  font-family: "Montserrat Medium";
+  font-size: 21px;
+  padding-bottom: 0.3em;
+  text-align: center;
 }
-.precio-number {
-  line-height: 40px;
-}
-.desde {
-  font-family: "Montserrat Light";
+.grid-description-options p {
+  font-family: "Montserrat Regular";
   font-size: 16px;
-  margin: 0;
 }
-.number-p {
-  font-size: 35px;
-  font-family: "Montserrat SemiBold";
-  margin: 0;
-}
-.service-one {
-  box-shadow: -1px 4px 20px 0px rgba(0, 0, 0, 0.1);
-}
-.grid-service-one {
-  display: grid;
-}
-.grid-service-two {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.description-service-one {
-  background: #f4f4f4;
-}
-.description-service-two {
-  background: #f4f4f4;
-  box-shadow: inset 3px 7px 20px 0px rgba(0, 0, 0, 0.1);
-}
-.content-service-one {
-  height: 100%;
-  padding: 30px 20px;
-}
-.content-service-two {
-  height: 100%;
-  padding: 30px 20px;
-}
-.title-service-one {
-  padding-bottom: 1em;
-}
-.title-service-two {
-  padding-bottom: 1em;
-}
-.title-service-one h2 {
-  font-family: "Montserrat Medium";
-}
-.title-service-one p {
-  font-family: "Montserrat Regular";
-}
-.title-service-two h2 {
-  font-family: "Montserrat Medium";
-}
-.title-service-two p {
-  font-family: "Montserrat Regular";
-}
-.btn-contacto {
+.btncontacto {
   font-family: "Montserrat Medium";
   font-size: 23px;
   color: black;
 }
+.grid-precio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  background: #3a66a7;
+  color: white;
+  height: 90px;
+  padding: 0 10px;
+}
+.content-servicio-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title-precio {
+  text-align: center;
+}
+.title-precio p {
+  font-size: 15px;
+  max-width: 230px;
+  line-height: 25px;
+  margin: 0;
+  font-family: "Montserrat SemiBold";
+}
+.subtitle-precio {
+  text-align: center;
+}
+.subtitle-precio p {
+  margin: 0;
+  font-family: "Montserrat Light";
+  font-size: 16px;
+}
+.precio-number {
+  line-height: 29px;
+}
+.desde {
+  font-family: "Montserrat Light";
+  font-size: 15px;
+  margin: 0;
+}
+.number-p {
+  font-family: "Montserrat SemiBold";
+  margin: 0;
+  font-size: 22px;
+}
+
+.img-serivio-options {
+  background: url(../../images/servicios/uno.png) no-repeat top;
+  background-size: cover;
+  height: 55vh;
+}
+.grid-title-serv {
+  height: 160px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  background: #f4f4f4;
+}
+.grid-title-serv h2 {
+  margin: 0;
+  font-family: "Montserrat Medium";
+  font-size: 30px;
+  text-transform: uppercase;
+}
 
 @media screen and (min-width: 768px) {
+  .grid-description-options h2 {
+    font-size: 26px;
+  }
+  .grid-title-serv h2 {
+    font-size: 50px;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1110px) {
   .grid-servicio h2 {
     font-size: 90px;
   }
   .grid-servicio p {
     font-size: 23px;
   }
+  .grid-servicio-options {
+    grid-template-columns: 40% 60%;
+  }
+  .grid-description-options {
+    padding: 10px 40px 0 50px;
+  }
+  .grid-description-options h2 {
+    font-size: 36px;
+    text-align: initial;
+  }
+  .grid-description-options p {
+    font-size: 17px;
+  }
   .grid-precio {
-    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0;
+  }
+  .title-precio {
+    text-align: initial;
   }
   .title-precio p {
-    font-size: 40px;
-    max-width: 380px;
+    font-size: 21px;
+  }
+  .subtitle-precio p {
+    font-size: 21px;
   }
   .desde {
     font-size: 20px;
   }
   .number-p {
-    font-size: 50px;
+    font-size: 25px;
   }
-  .content-service-one {
-    padding: 30px 30px 20px 98px;
+  .subtitle-precio {
+    text-align: initial;
   }
-  .title-service-one p {
-    font-size: 15px;
-  }
-  .title-service-one h2 {
-    font-size: 28px;
-  }
-  .grid-service-one {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .content-service-two {
-    padding: 30px 30px 20px 98px;
-  }
-  .title-service-two p {
-    font-size: 15px;
-  }
-  .title-service-two h2 {
-    font-size: 28px;
-  }
-  .grid-service-two {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+}
+@media screen and (min-width: 1240px) {
 }
 
 @media screen and (min-width: 1440px) {
-  .content-service-one {
-    box-shadow: inset -1px 4px 20px 0px rgba(0, 0, 0, 0.1);
-    padding: 30px 450px 20px 60px;
+  .grid-description-options {
+    padding: 20px 100px 0 82px;
   }
-  .title-service-one p {
+  .grid-description-options p {
     font-size: 19px;
   }
-  .title-service-one h2 {
-    font-size: 36px;
-  }
-
-  .content-service-two {
-    padding: 30px 60px 20px 450px;
-  }
-  .title-service-two p {
-    font-size: 19px;
-  }
-  .title-service-two h2 {
-    font-size: 36px;
+}
+@media screen and (min-width: 1640px) {
+  .grid-description-options {
+    padding: 40px 130px 0 82px;
   }
 }

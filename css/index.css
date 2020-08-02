@@ -40,31 +40,22 @@ body::-webkit-scrollbar-thumb {
 }
 .rgba-red-strong,
 .rgba-red-strong:after {
-  background-color: rgba(95, 188, 218, 0.7);
+  background-color: rgba(95, 188, 218, 1);
 }
 
 /****************************************************/
 .cabecera {
   box-shadow: inset 2px 4px 7px 0px rgba(0, 0, 0, 0.1);
-  height: 259px;
+  height: 0;
 }
 
-.bg-cabecera {
-  position: absolute;
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  top: 110px;
-  z-index: 2;
-  line-height: 50px;
-  padding: 0 20px;
-}
 .bg-cabecera h2 {
   margin: 0;
   font-size: 50px;
   max-width: 700px;
-  text-align: center;
+  text-align: end;
   font-family: "Montserrat Light";
+  color: #3a66a7;
 }
 .bg-cabecera p {
   margin: 0;
@@ -73,6 +64,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   font-family: "Montserrat Regular";
   font-weight: bold;
+  color: #3a66a7;
 }
 /**********************************/
 .grid-service {
@@ -209,7 +201,7 @@ body::-webkit-scrollbar-thumb {
 /************************/
 .cita {
   height: 150px;
-  background: #4565ad;
+  background: linear-gradient(to left, #3a66a7, #64bcd9);
   padding: 0 20px;
 }
 .grid-cita {
@@ -254,6 +246,102 @@ body::-webkit-scrollbar-thumb {
   text-align: justify;
 }
 
+.position_r {
+  position: relative;
+}
+.title-servicios-ab {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat Medium";
+  font-size: 30px;
+}
+.hover-title h4:hover {
+  top: 50px;
+}
+
+.vigneta {
+  box-shadow: inset 0px 25px 20px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0px 25px 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 25px 20px rgba(0, 0, 0, 0.2);
+}
+img.foto_auto {
+  z-index: -1;
+  position: relative;
+}
+.bg-cabecera {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  transform: translate(50%);
+  grid-template-rows: 40% 10% 10% 40%;
+  text-align: justify;
+}
+/**********MODAL*****************/
+.bg-modal-service {
+  background: #ffffff;
+  border-radius: 60px 30px 0 0;
+  padding: 20px;
+}
+
+.modal-dialog .modal-content {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+.modal-content {
+  background-color: transparent;
+}
+.modal-body {
+  padding: 0rem;
+}
+.grid-service-modal {
+  background: white;
+  border-radius: 0 0 90px 30px;
+  padding: 0px 70px 50px;
+}
+.description-service-modal h2 {
+  font-family: "Montserrat SemiBold";
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 1em;
+  color: #0166ab;
+}
+.description-service-modal h6 {
+  font-family: "Montserrat Regular";
+  font-size: 16px;
+  line-height: 33px;
+  margin-bottom: 4em;
+}
+.title-beneficio h4 {
+  font-family: "Montserrat Medium";
+  font-size: 20px;
+  padding-bottom: 0.5em;
+}
+.link_check {
+  padding-left: 1.3em;
+  list-style-image: url(./../images/flecha.PNG);
+  font-size: 15px;
+  color: black;
+  font-family: "Montserrat Regular";
+  line-height: 30px;
+}
+.close {
+  opacity: 1;
+}
+.precio-serv {
+  line-height: 40px;
+  text-align: center;
+  color: #0166ab;
+}
+/***************************************/
 @media screen and (min-width: 768px) {
   .btn-cita {
     width: 224px;
@@ -336,10 +424,7 @@ body::-webkit-scrollbar-thumb {
   .experiencia {
     padding: 70px 0;
   }
-  .bg-cabecera {
-    top: 300px;
-    padding: 0 0px;
-  }
+
   .bg-cabecera h2 {
     font-size: 90px;
   }
