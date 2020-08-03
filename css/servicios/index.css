@@ -44,6 +44,10 @@
 .grid-servicio-options {
   display: grid;
 }
+.grid-servicio-options-two {
+  display: flex;
+  flex-direction: column-reverse;
+}
 .grid-description-options {
   padding: 20px 20px;
 }
@@ -57,6 +61,20 @@
   font-family: "Montserrat Regular";
   font-size: 16px;
 }
+.grid-description-options-two {
+  padding: 20px 20px;
+}
+.grid-description-options-two h2 {
+  font-family: "Montserrat Medium";
+  font-size: 21px;
+  padding-bottom: 0.3em;
+  text-align: center;
+}
+.grid-description-options-two p {
+  font-family: "Montserrat Regular";
+  font-size: 16px;
+}
+
 .btncontacto {
   font-family: "Montserrat Medium";
   font-size: 23px;
@@ -133,6 +151,9 @@
   .grid-description-options h2 {
     font-size: 26px;
   }
+  .grid-description-options-two h2 {
+    font-size: 26px;
+  }
   .grid-title-serv h2 {
     font-size: 50px;
   }
@@ -147,6 +168,10 @@
   .grid-servicio-options {
     grid-template-columns: 40% 60%;
   }
+  .grid-servicio-options-two {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
   .grid-description-options {
     padding: 10px 40px 0 50px;
   }
@@ -155,6 +180,16 @@
     text-align: initial;
   }
   .grid-description-options p {
+    font-size: 17px;
+  }
+  .grid-description-options-two {
+    padding: 10px 40px 0 50px;
+  }
+  .grid-description-options-two h2 {
+    font-size: 36px;
+    text-align: initial;
+  }
+  .grid-description-options-two p {
     font-size: 17px;
   }
   .grid-precio {
@@ -173,7 +208,7 @@
     font-size: 20px;
   }
   .number-p {
-    font-size: 25px;
+    font-size: 40px;
   }
   .subtitle-precio {
     text-align: initial;
@@ -189,9 +224,18 @@
   .grid-description-options p {
     font-size: 19px;
   }
+  .grid-description-options-two {
+    padding: 20px 100px 0 82px;
+  }
+  .grid-description-options-two p {
+    font-size: 19px;
+  }
 }
 @media screen and (min-width: 1640px) {
   .grid-description-options {
+    padding: 40px 130px 0 82px;
+  }
+  .grid-description-options-two {
     padding: 40px 130px 0 82px;
   }
 }
