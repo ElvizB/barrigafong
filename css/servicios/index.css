@@ -85,7 +85,17 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
-  background: #3a66a7;
+  background: #229cbc;
+  color: white;
+  height: 90px;
+  padding: 0 10px;
+}
+.grid-precio-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  background: #2461ba;
   color: white;
   height: 90px;
   padding: 0 10px;
@@ -132,6 +142,11 @@
   background-size: cover;
   height: 55vh;
 }
+.img-serivio-options-two {
+  background: url(../../images/servicios/dos.png) no-repeat top;
+  background-size: cover;
+  height: 55vh;
+}
 .grid-title-serv {
   height: 160px;
   display: grid;
@@ -147,6 +162,18 @@
   text-transform: uppercase;
 }
 
+.grid-galery {
+  display: grid;
+  max-width: 1600px;
+  margin: auto;
+}
+.modal-lg-white {
+  background: white;
+}
+.img-galeria img {
+  cursor: zoom-in;
+}
+
 @media screen and (min-width: 768px) {
   .grid-description-options h2 {
     font-size: 26px;
@@ -156,6 +183,9 @@
   }
   .grid-title-serv h2 {
     font-size: 50px;
+  }
+  .grid-galery {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media screen and (min-width: 1110px) {
@@ -195,6 +225,9 @@
   .grid-precio {
     padding: 0 0;
   }
+  .grid-precio-two {
+    padding: 0 0;
+  }
   .title-precio {
     text-align: initial;
   }
@@ -212,6 +245,9 @@
   }
   .subtitle-precio {
     text-align: initial;
+  }
+  .grid-galery {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 @media screen and (min-width: 1240px) {

@@ -53,7 +53,12 @@ include_once 'plantillas/nav/index.php';
                     Actualmente trabajo en la hermosa región de Ica. Si necesita una intervención quirúrgica puede
                     contactarnos, estaremos gustosos en poder ayudarlo.
                 </p>
-                <p>Hoja de vida</p>
+                <div class="grid-btn-life">
+                    <p>Hoja de vida</p>
+                    <a href="<?php echo RUTA_PDF?>hojadevidaBF.pdf" download="hojadevidaBF" class="">
+                        <img src="<?php echo RUTA_IMG?>dw.png" draggable="false" class="img-fluid" />
+                    </a>
+                </div>
             </div>
             <div class="firma-vida">
                 <img src="<?php echo RUTA_IMG?>home/firma.png" draggable="false" class="img-fluid" />

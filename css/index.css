@@ -130,6 +130,7 @@ body::-webkit-scrollbar-thumb {
 }
 .firma-vida {
   text-align: center;
+  padding-top: 1.5em;
 }
 .firma-vida img {
   width: 200px;
@@ -137,7 +138,26 @@ body::-webkit-scrollbar-thumb {
 .bg-img-vida img {
   width: 100%;
 }
-/*****************************/
+.btn-life {
+  font-family: "Montserrat Light";
+  color: black;
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.grid-btn-life {
+  margin-top: 2em;
+  display: grid;
+  max-width: 300px;
+}
+/*********************
+.btn-life:hover {
+  background: #3a66a7;
+  color: white;
+  font-weight: bold;
+}
+/*********
 
 /**********/
 .salud {
@@ -376,6 +396,9 @@ img.foto_auto {
   }
 }
 @media screen and (min-width: 1110px) {
+  .grid-btn-life {
+    grid-template-columns: 50% 18%;
+  }
   .linea {
     height: 150px;
   }

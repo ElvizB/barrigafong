@@ -18,3 +18,4 @@ define("RUTA_LOCALES", SERVIDOR."locales");
 define("RUTA_CSS", SERVIDOR . "css/");
 define("RUTA_JS", SERVIDOR . "js/");
 define("RUTA_IMG", SERVIDOR . "images/");
+define("RUTA_PDF", SERVIDOR . "pdf/");

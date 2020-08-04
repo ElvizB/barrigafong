@@ -9,32 +9,29 @@ include_once 'plantillas/nav/index.php';
             <div class="descriptions-local">
                 <h2>PISCO</h2>
                 <p>
-                    Clínica Las Américas<br />
-                    Av. Las Américas 901 – Pisco<br />
-                    (56) 532 679<br />
-                    informes@clinicalasamericas.com.pe
+                    Clínica FamiSalud<br />
+                    Calle Ayacucho N° 270 - Pisco - Perú<br />
+                    (56) 534821<br />
+                    admision1.pisco@famisalud.com.pe
                 </p>
             </div>
             <div class="descriptions-local">
                 <h2>Horario de atención</h2>
                 <p>
-                    Lunes – Viernes 08:00 hrs – 18:00 hrs<br />
-                    Sábados 08:00 hrs – 13:00 hrs<br />
-                    Emergencias 00:00 hrs – 24:00 hrs
+                    Miércoles 08:30 hrs - 18:00 hrs
                 </p>
             </div>
         </div>
         <div class="map-local">
             <div id="map-container-section" class="map-container-section z-depth-1" style="height:500px">
-
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.026428174812!2d-76.21185428455593!3d-13.716849178943471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110658ee507cc09%3A0xe62ad58e91bacf7f!2sClinica%20Las%20Americas!5e0!3m2!1ses-419!2spe!4v1596016533832!5m2!1ses-419!2spe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.159689437495!2d-76.20345108517004!3d-13.708776390375323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x911065f555f68185%3A0xb5832a6b6f1c7d30!2sCalle%20Ayacucho%20270%2C%20Pisco%2011601!5e0!3m2!1ses!2spe!4v1596567552664!5m2!1ses!2spe"
                     width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" tabindex="0">
                 </iframe>
-
             </div>
         </div>
     </div>
+
     <div class="grid-locales-two">
         <div class="map-local">
             <div id="map-container-section" class="map-container-section z-depth-1" style="height: 500px">
