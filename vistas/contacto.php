@@ -16,7 +16,7 @@ include_once 'plantillas/nav/index.php';
                             Cirujano General y Laparoscópico
                         </p>
                         <p>
-                            Pisco: Clínica Las Américas<br />
+                            Pisco: Clínica FamiSalud<br />
                             Ica: Clínica Regional<br />
                             Nasca: Clínica Napoleón
                         </p>
@@ -27,21 +27,24 @@ include_once 'plantillas/nav/index.php';
                     </div>
                 </div>
                 <div class="redes-contacto">
-                    <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/fb.png" draggable="false"
-                            class="img-fluid" /></a>
-                    <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/ig.png" draggable="false"
-                            class="img-fluid" /></a>
-                    <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/ln.png" draggable="false"
-                            class="img-fluid" /></a>
-                    <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/wp.png" draggable="false"
-                            class="img-fluid" /></a>
-                    <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/yt.png" draggable="false"
-                            class="img-fluid" /></a>
+                    <a href="https://www.facebook.com/Dr.BarrigaFong" target="_blank"> <img
+                            src="<?php echo RUTA_IMG?>contacto/fb.png" draggable="false" class="img-fluid" /></a>
+                    <a href="https://www.instagram.com/dr.barrigafong/" target="_blank"> <img
+                            src="<?php echo RUTA_IMG?>contacto/ig.png" draggable="false" class="img-fluid" /></a>
+                    <a href="https://www.linkedin.com/in/victor-hugo-barriga-fong-b598441a2" target="_blank"> <img
+                            src="<?php echo RUTA_IMG?>contacto/ln.png" draggable="false" class="img-fluid" /></a>
+                    <a href="https://api.whatsapp.com/send?phone=51949703230&text=hola" target="_blank"> <img
+                            src="<?php echo RUTA_IMG?>contacto/wp.png" draggable="false" class="img-fluid" /></a>
+                    <!----  <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/yt.png" draggable="false"
+                            class="img-fluid" /></a>------>
                 </div>
             </div>
         </div>
         <div class="form-contacto">
             <div class="grid-form-contacto wow fadeInUp" data-wow-delay="0.4s">
+                <div class="title-form">
+                    <p>Agendemos una cita</p>
+                </div>
                 <form id="formulario" class="form" role="form" action="" method="POST">
 
                     <div class="grid-inputs">
@@ -78,7 +81,7 @@ include_once 'plantillas/nav/index.php';
                         <textarea class="form-control md-textarea" id="mensaje" name="mensaje" rows="3"></textarea>
                         <label for="mensaje">CASO</label>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-4">
                         <div class="g-recaptcha text-center" data-sitekey="6LfgYbwUAAAAAPWDkxumlQNLS2gssZzO_2zkYc8l">
                         </div>
                         <div id="g-recaptcha-error"></div>

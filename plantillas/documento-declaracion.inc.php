@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <meta name="theme-color" content="#3a66a7">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->

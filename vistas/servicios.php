@@ -83,6 +83,13 @@ include_once 'plantillas/nav/index.php';
     </div>
 </section>
 
+
+<section class="title-serv">
+    <div class="grid-title-serv">
+        <h2>- galería -</h2>
+    </div>
+</section>
+
 <section class="galery">
     <div class="grid-galery">
         <div class="img-galeria p-4">
@@ -93,7 +100,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -122,7 +129,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -151,7 +158,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -180,7 +187,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -209,7 +216,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -238,7 +245,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -267,7 +274,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -296,7 +303,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -325,7 +332,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -354,7 +361,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -383,7 +390,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -412,7 +419,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -441,7 +448,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -470,7 +477,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -499,7 +506,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -528,7 +535,7 @@ include_once 'plantillas/nav/index.php';
                 aria-hidden="true">
 
                 <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg-white" role="document">
+                <div class="modal-dialog modal-lg" role="document">
 
                     <div class="modal-content">
                         <div class="modal-header bg-modal">
@@ -558,7 +565,7 @@ include_once 'plantillas/nav/index.php';
         <div class="img-servicio">
             <img src="<?php echo RUTA_IMG?>servicios/logo-s.png" draggable="false" class="img-fluid" />
         </div>
-        <h2>¿Preguntas?</h2>
+        <h2>¿Tienes alguna consulta?</h2>
         <p>Agendemos una cita para resolver con tiempo sus consultas e inquietudes.</p>
         <div class="grid-btn-cita">
             <a href="<?php echo RUTA_CONTACTO ?>" target="_blank" class="btn-reserva">Reserva tu cita</a>

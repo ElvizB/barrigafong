@@ -54,9 +54,8 @@ include_once 'plantillas/nav/index.php';
                     contactarnos, estaremos gustosos en poder ayudarlo.
                 </p>
                 <div class="grid-btn-life">
-                    <p>Hoja de vida</p>
-                    <a href="<?php echo RUTA_PDF?>hojadevidaBF.pdf" download="hojadevidaBF" class="">
-                        <img src="<?php echo RUTA_IMG?>dw.png" draggable="false" class="img-fluid" />
+                    <a href="<?php echo RUTA_PDF?>hojadevidaBF.pdf" download="hojadevidaBF" class="btn-life">
+                        Hoja de vida
                     </a>
                 </div>
             </div>
@@ -79,20 +78,15 @@ include_once 'plantillas/nav/index.php';
         <div class="owl-carousel owl-theme wow fadeIn" data-wow-delay="0.4s" id="slider-testimonio">
             <div class="item">
                 <div class="grid-description-salud">
-                    <div>
-                        <span class="comillas-pr">“</span>
-                    </div>
                     <div class="content-comillas">
                         <p>
-                            Excelente médico que trabaja con un estupendo equipo multidisciplinario, capacitados en la
+                            " Excelente médico que trabaja con un estupendo equipo multidisciplinario, capacitados en la
                             materia,
                             con actitud admirable y un corazón de servicio.
-                            No solo cura lo físico, también alienta el alma con seguridad y esperanza.
+                            No solo cura lo físico, también alienta el alma con seguridad y esperanza."
                         </p>
                     </div>
-                    <div class="comillas-pr2">
-                        <span>“</span>
-                    </div>
+
                 </div>
                 <div class="author-salud">
                     <p>J Elias CM</p>
@@ -100,22 +94,18 @@ include_once 'plantillas/nav/index.php';
             </div>
             <div class="item">
                 <div class="grid-description-salud">
-                    <div>
-                        <span class="comillas-pr">“</span>
-                    </div>
+
                     <div class="content-comillas">
                         <p>
-                            Primero su humanidad, acompañada de su extremada afabilidad, amabilidad y cariñoso trato
+                            " Primero su humanidad, acompañada de su extremada afabilidad, amabilidad y cariñoso trato
                             hacia un paciente, sin importar su condición social.
                             Segundo su profesionalismo y celo en medio de sus consultas e intervenciones quirúrgicas, su
                             sonrisa y paciencia, que te hacen sentir cómoda y confiada, ante cualquier dolencia la más
-                            extrema que involucre su campo médico...
-                            En resumen un hombre de Dios... Dios bendiga a este joven profesional de la ciencia médica.
+                            extrema que involucre su campo médico... Dios bendiga a este joven profesional de la ciencia
+                            médica."
                         </p>
                     </div>
-                    <div class="comillas-pr2">
-                        <span>“</span>
-                    </div>
+
                 </div>
                 <div class="author-salud">
                     <p> Ana María Calmet</p>
@@ -123,19 +113,15 @@ include_once 'plantillas/nav/index.php';
             </div>
             <div class="item">
                 <div class="grid-description-salud">
-                    <div>
-                        <span class="comillas-pr">“</span>
-                    </div>
+
                     <div class="content-comillas">
                         <p>
-                            Excelente profesional, que no solo se evoca a lo profesional, sino que tiene lo que se ha
+                            "Excelente profesional, que no solo se evoca a lo profesional, sino que tiene lo que se ha
                             perdido en algunos profesionales: el lado HUMANO. Agradezco de todo corazón al Dr. porque
-                            operó a mi hermano.
+                            operó a mi hermano."
                         </p>
                     </div>
-                    <div class="comillas-pr2">
-                        <span>“</span>
-                    </div>
+
                 </div>
                 <div class="author-salud">
                     <p> Fabiola PG</p>
@@ -143,22 +129,16 @@ include_once 'plantillas/nav/index.php';
             </div>
             <div class="item">
                 <div class="grid-description-salud">
-                    <div>
-                        <span class="comillas-pr">“</span>
-                    </div>
+
                     <div class="content-comillas">
                         <p>
-                            Aparte de ser un gran médico, es un ser humano increible. Mi hijo se operó con el Dr. y la
+                            "Aparte de ser un gran médico, es un ser humano increible. Mi hijo se operó con el Dr. y la
                             operación fue un éxito. Todas las veces que sentía alguna duda con respecto al post
                             operatorio, inmediatamente contestaba mis mensajes y me daba las pautas necesarias para mi
-                            tranquilidad. Muchas gracias, lo recomiendo al 100%.
-
-
+                            tranquilidad. Muchas gracias, lo recomiendo al 100%."
                         </p>
                     </div>
-                    <div class="comillas-pr2">
-                        <span>“</span>
-                    </div>
+
                 </div>
                 <div class="author-salud">
                     <p> Marielena Berrospi</p>

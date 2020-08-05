@@ -1,4 +1,5 @@
 <header>
+
     <div class="grid-header">
         <div class="grid-nav-contacto">
             <div class="nav-contacto">
@@ -12,6 +13,11 @@
                     <p>949-703-230</p>
                 </div>
             </div>
+        </div>
+        <div class="logo-fong-movil">
+            <a href="<?php echo SERVIDOR ?>">
+                <img src="<?php echo RUTA_IMG?>logo.png" draggable="false" class="img-fluid" />
+            </a>
         </div>
         <div class="menu">
             <div class="grid-menu">

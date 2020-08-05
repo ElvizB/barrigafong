@@ -26,7 +26,7 @@
 }
 .redes-contacto {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   max-width: 500px;
   margin: auto;
@@ -54,6 +54,11 @@
 }
 .md-form {
   margin-bottom: 0rem;
+}
+.title-form p {
+  font-family: "Montserrat SemiBold";
+  font-size: 31px;
+  color: #001e40;
 }
 @media screen and (min-width: 768px) {
 }

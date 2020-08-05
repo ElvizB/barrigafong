@@ -9,7 +9,7 @@
             <p> Cirujano General y Laparoscópico</p>
         </div>
         <div class="description-footer">
-            <p> Pisco: Clínica Las Américas</p>
+            <p> Pisco: Clínica FamiSalud</p>
             <p> Ica: Clínica Regional </p>
             <p> Nasca: Clínica Napoleón</p>
         </div>
@@ -18,16 +18,15 @@
             <p> hengui_fong@hotmail.com </p>
         </div>
         <div class="redes">
-            <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>footer/fb.png" draggable="false"
-                    class="img-fluid" /></a>
-            <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>footer/ig.png" draggable="false"
-                    class="img-fluid" /></a>
-            <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>footer/lk.png" draggable="false"
-                    class="img-fluid" /></a>
-            <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>footer/wp.png" draggable="false"
-                    class="img-fluid" /></a>
-            <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>footer/yt.png" draggable="false"
-                    class="img-fluid" /></a>
+            <a href="https://www.facebook.com/Dr.BarrigaFong" target="_blank"> <img
+                    src="<?php echo RUTA_IMG?>footer/fb.png" draggable="false" class="img-fluid" /></a>
+            <a href="https://www.instagram.com/dr.barrigafong/" target="_blank"> <img
+                    src="<?php echo RUTA_IMG?>footer/ig.png" draggable="false" class="img-fluid" /></a>
+            <a href="https://www.linkedin.com/in/victor-hugo-barriga-fong-b598441a2" target="_blank"> <img
+                    src="<?php echo RUTA_IMG?>footer/lk.png" draggable="false" class="img-fluid" /></a>
+            <a href="https://api.whatsapp.com/send?phone=51949703230&text=hola" target="_blank"> <img
+                    src="<?php echo RUTA_IMG?>footer/wp.png" draggable="false" class="img-fluid" /></a>
+
         </div>
     </div>
     <div class="floating-wp z-depth-1">

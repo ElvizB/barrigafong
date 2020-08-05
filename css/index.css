@@ -140,24 +140,21 @@ body::-webkit-scrollbar-thumb {
 }
 .btn-life {
   font-family: "Montserrat Light";
-  color: black;
-  border: 1px solid black;
-  padding: 8px;
+  color: #00244c;
+  border: 2px solid #00244c;
+  padding: 10px 25px;
   font-size: 22px;
   border-radius: 10px;
 }
 .grid-btn-life {
-  margin-top: 2em;
-  display: grid;
-  max-width: 300px;
+  padding-top: 1em;
 }
-/*********************
+
 .btn-life:hover {
-  background: #3a66a7;
+  background: #001e40;
   color: white;
   font-weight: bold;
 }
-/*********
 
 /**********/
 .salud {
@@ -179,10 +176,6 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .grid-description-salud {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
-  padding: 20px 0 0;
 }
 .comillas-pr {
   font-size: 70px;
@@ -213,6 +206,9 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   padding-top: 1em;
 }
+.author-salud p {
+  color: gray;
+}
 .title-salud h2 {
   font-family: "Montserrat Medium";
   font-size: 30px;
@@ -231,14 +227,20 @@ body::-webkit-scrollbar-thumb {
   justify-items: center;
 }
 .btn-cita {
-  background: white;
+  background: transparent;
   width: 100%;
-  height: 44px;
+  height: 60px;
   display: grid;
   align-items: center;
   justify-content: center;
   color: black;
   font-family: "Montserrat Medium";
+  border: 2px solid #00244c;
+  border-radius: 10px;
+}
+.btn-cita:hover {
+  background: #001e40;
+  color: white;
 }
 /********************************/
 .experiencia {
@@ -307,8 +309,8 @@ img.foto_auto {
 /**********MODAL*****************/
 .bg-modal-service {
   background: #ffffff;
-  border-radius: 60px 30px 0 0;
-  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
 }
 
 .modal-dialog .modal-content {
@@ -324,8 +326,8 @@ img.foto_auto {
 }
 .grid-service-modal {
   background: white;
-  border-radius: 0 0 90px 30px;
-  padding: 0px 70px 50px;
+  border-radius: 0 0 20px 20px;
+  padding: 20px 20px;
 }
 .description-service-modal h2 {
   font-family: "Montserrat SemiBold";
@@ -362,9 +364,16 @@ img.foto_auto {
   color: #0166ab;
 }
 /***************************************/
+.logo-fong-movil {
+  height: 120px;
+  display: grid;
+  justify-content: initial;
+  align-items: center;
+  padding: 0 20px;
+}
 @media screen and (min-width: 768px) {
   .btn-cita {
-    width: 224px;
+    width: 235px;
   }
   .content-comillas {
     font-size: 23px;
@@ -394,10 +403,21 @@ img.foto_auto {
     text-align: center;
     margin-bottom: 1.5em;
   }
+  .grid-service-modal {
+    border-radius: 0 0 90px 30px;
+    padding: 0px 70px 50px;
+  }
+  .bg-modal-service {
+    border-radius: 60px 30px 0 0;
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 1110px) {
-  .grid-btn-life {
-    grid-template-columns: 50% 18%;
+  .carousel-inner {
+    height: 82vh;
+  }
+  .logo-fong-movil {
+    display: none;
   }
   .linea {
     height: 150px;

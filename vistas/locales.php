@@ -11,7 +11,7 @@ include_once 'plantillas/nav/index.php';
                 <p>
                     Clínica FamiSalud<br />
                     Calle Ayacucho N° 270 - Pisco - Perú<br />
-                    (56) 534821<br />
+                    (56) 534 821<br />
                     admision1.pisco@famisalud.com.pe
                 </p>
             </div>
@@ -48,7 +48,7 @@ include_once 'plantillas/nav/index.php';
                 <p>
                     Clínica Regional<br />
                     Av. Huacachina 195 – Ica<br />
-                    (56) 611993<br />
+                    (56) 611 993<br />
 
                 </p>
             </div>
@@ -68,7 +68,7 @@ include_once 'plantillas/nav/index.php';
                 <p>
                     Clínica Napoleon II<br />
                     Av. Lima 300<br />
-                    (56) 522387<br />
+                    (56) 522 387<br />
 
                 </p>
             </div>

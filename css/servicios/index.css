@@ -153,13 +153,13 @@
   align-content: center;
   justify-content: center;
   text-align: center;
-  background: #f4f4f4;
 }
 .grid-title-serv h2 {
   margin: 0;
   font-family: "Montserrat Medium";
   font-size: 30px;
   text-transform: uppercase;
+  color: #001e40;
 }
 
 .grid-galery {
@@ -167,7 +167,7 @@
   max-width: 1600px;
   margin: auto;
 }
-.modal-lg-white {
+.modal-lg {
   background: white;
 }
 .img-galeria img {
@@ -190,7 +190,7 @@
 }
 @media screen and (min-width: 1110px) {
   .grid-servicio h2 {
-    font-size: 90px;
+    font-size: 73px;
   }
   .grid-servicio p {
     font-size: 23px;
@@ -245,6 +245,9 @@
   }
   .subtitle-precio {
     text-align: initial;
+    display: grid;
+    width: 100%;
+    justify-items: end;
   }
   .grid-galery {
     grid-template-columns: repeat(4, 1fr);
