@@ -91,14 +91,48 @@ include_once 'plantillas/nav/index.php';
 <section class="quaternary-home">
     <div class="grid-quaternary-home">
         <div class="img-quaternary-home">
-            <img loading="lazy" src="<?php echo RUTA_IMG?>home/bg_4.png" draggable="false" height="864" />
+            <img loading="lazy" src="<?php echo RUTA_IMG?>home/bg_4.png" draggable="false" height="950" />
         </div>
         <div class="u-center">
             <div class="u-grid-content">
                 <div class="content-servicios">
-                    <div>
-                        slider
+                    <div class="grid-testimonio">
+                        <div class="u-line2 u-spacing-line">
+                        </div>
+                        <div class="owl-carousel owl-theme" id="slider-testimonio">
+                            <div class="item">
+                                <div class="grid-testimonio-img">
+                                    <p>
+                                        Es un excelente médico, muy amable, se preocupa mucho por sus pacientes. Tuve la
+                                        oportunidad que me atendiera en el seguro de Pisco. Gracias, doctor.
+                                    </p>
+                                    <h6>- Ariana Marcani -</h6>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="grid-testimonio-img">
+                                    <p>
+                                        Es un excelente médico, muy amable, se preocupa mucho por sus pacientes. Tuve la
+                                        oportunidad que me atendiera en el seguro de Pisco. Gracias, doctor.
+                                    </p>
+                                    <h6>- Ariana Marcani2 -</h6>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="grid-testimonio-img">
+                                    <p>
+                                        Es un excelente médico, muy amable, se preocupa mucho por sus pacientes. Tuve la
+                                        oportunidad que me atendiera en el seguro de Pisco. Gracias, doctor.
+                                    </p>
+                                    <h6>- Ariana Marcani3 -</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="u-line2 u-spacing-line">
+                        </div>
                     </div>
+
+
                     <div class="grid-bg-servicios">
                         <div class="img-bg-servicios">
                             <img loading="lazy" src="<?php echo RUTA_IMG?>home/img_04.png" draggable="false"

@@ -4,7 +4,9 @@
             <div class="grip-navbar">
                 <div class="content-back-menu">
                     <div class="back-menu">
-                        <img loading="lazy" src="<?php echo RUTA_IMG?>logo.png" draggable="false" />
+                        <a href="<?php echo SERVIDOR ?>">
+                            <img loading="lazy" src="<?php echo RUTA_IMG?>logo.png" draggable="false" />
+                        </a>
                     </div>
                 </div>
                 <div class="grip-menu-logo">
@@ -34,9 +36,13 @@
             </div>
         </div>
         <div class="logo-fong-movil">
-            <a href="<?php echo SERVIDOR ?>">
-                <img src="<?php echo RUTA_IMG?>logo.png" draggable="false" class="img-fluid" />
-            </a>
+            <div class="img-movil-logo">
+                <div class="grid-img-movil-logo">
+                    <a href="<?php echo SERVIDOR ?>">
+                        <img src="<?php echo RUTA_IMG?>logo.png" draggable="false" class="img-fluid" />
+                    </a>
+                </div>
+            </div>
         </div>
         <nav id="navbar-movil">
             <div id="toggleIcon" onclick="menuToggle()"></div>

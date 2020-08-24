@@ -101,6 +101,17 @@
 .navbar-web {
   display: none;
 }
+.logo-fong-movil {
+  height: 120px;
+  padding: 0 20px;
+}
+.img-movil-logo {
+  position: relative;
+}
+.grid-img-movil-logo {
+  position: absolute;
+  z-index: 2;
+}
 
 @media screen and (min-width: 768px) {
   .nav_link_u {
@@ -116,5 +127,8 @@
   }
   .navbar-web {
     display: block;
+  }
+  .logo-fong-movil {
+    display: none;
   }
 }

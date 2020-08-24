@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="theme-color" content="#3a66a7">
+    <meta name="theme-color" content="#4565ad">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.png">
     <!-- Font Awesome -->

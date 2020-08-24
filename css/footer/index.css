@@ -27,7 +27,7 @@
 .footer-title {
   text-align: center;
   color: white;
-  padding: 40px 0;
+  padding: 50px 0 30px;
 }
 .footer-title h2 {
   font-family: "Montserrat SemiBold";
@@ -58,6 +58,16 @@
 b,
 strong {
   font-weight: bold;
+}
+.logo-img-footer {
+  position: relative;
+}
+.grid-logo-img-footer {
+  position: absolute;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  top: -40px;
 }
 @media screen and (min-width: 768px) {
   .footer {

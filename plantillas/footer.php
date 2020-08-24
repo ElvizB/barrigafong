@@ -1,6 +1,11 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="u-grid-content">
+        <div class="logo-img-footer">
+            <div class="grid-logo-img-footer">
+                <img src="<?php echo RUTA_IMG?>footer/logo-footer.png" draggable="false" class="img-fluid" />
+            </div>
+        </div>
         <div class="footer-title">
             <h2>Dr. Barriga Fong</h2>
             <p>Cirujano General y Laparoscópico</p>
