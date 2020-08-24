@@ -1,45 +1,38 @@
-.grid-nav-contacto {
-  background: linear-gradient(to left, #3a66a7, #64bcd9);
-  height: 49px;
+.barra {
+  background: linear-gradient(to left, #4565ad, #5fc4e1);
 }
-
-.nav-contacto {
+.grip-navbar {
   display: grid;
-  grid-template-columns: 50% 50%;
-  max-width: 1500px;
-  margin: auto;
-  color: white;
-  justify-items: end;
-  align-items: center;
-  height: 100%;
+  grid-template-columns: 30% 70%;
 }
-.nav-contacto p {
-  margin: 0;
+.content-back-menu {
+  position: relative;
 }
-.grip-wp {
-  display: flex;
+.back-menu {
+  position: absolute;
+  z-index: 2;
 }
-.grip-wp p {
-  font-family: "Montserrat Regular";
-  font-size: 20px;
-}
-
-.grid-menu {
-  max-width: 1500px;
-  margin: auto;
-  padding: 20px 0;
-}
-.nav_link_u {
+.grip-menu-logo {
   display: grid;
+  height: 100px;
   align-items: center;
+}
+.grid-list-navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   list-style: none;
-  padding: 0;
-  margin-top: 1em;
+  text-align: center;
 }
-.nav_link_u li a {
-  color: #191919;
-  font-size: 18px;
+.grid-list-navbar li a {
   font-family: "Montserrat Regular";
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.grid-list-navbar li a:hover {
+  color: #5fc4e1;
+  font-family: "Montserrat SemiBold";
+  letter-spacing: 2px;
 }
 
 /***********movil*****************/
@@ -105,6 +98,9 @@
 .menu {
   display: none;
 }
+.navbar-web {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .nav_link_u {
@@ -117,5 +113,8 @@
   }
   #navbar-movil {
     display: none;
+  }
+  .navbar-web {
+    display: block;
   }
 }

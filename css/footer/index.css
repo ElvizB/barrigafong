@@ -1,66 +1,73 @@
+.u-grid-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 5px;
+  height: 100%;
+}
 .footer {
-  padding: 75px 20px 80px;
+  background: linear-gradient(to right, #4565ad, #5fc4e1);
+  padding-bottom: 40px;
+}
+.footer-datos {
+  display: grid;
+  row-gap: 1em;
+}
+
+.grid-info-footer {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+}
+.grid-info-footer p {
+  margin: 0;
+  font-family: "Montserrat Medium";
+  color: white;
+  font-size: 18px;
+}
+.footer-title {
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+.footer-title h2 {
+  font-family: "Montserrat SemiBold";
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer-title p {
+  font-size: 18px;
+  font-family: "Montserrat Medium";
+  margin: 0;
 }
 .grid-footer {
   display: grid;
-  justify-items: center;
-  text-align: center;
-}
-.footer-img {
-  padding-bottom: 1em;
-}
-
-.description-footer {
-  padding-bottom: 2em;
-}
-.description-footer p {
-  margin: 0;
-  font-family: "Montserrat Regular";
-  font-size: 16px;
-}
-.redes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.5em;
   align-items: center;
-}
-
-.grid-floatig-wp {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  border-radius: 39px;
-  background: #3a66a7;
-  width: 60px;
-  display: grid;
-  height: 60px;
   justify-items: center;
-  align-items: center;
-  z-index: 2;
+  row-gap: 2em;
 }
-.grid-floatig-wp a {
-  width: 35px;
+.footer-lugares p {
+  font-family: "Montserrat Medium";
+  color: white;
+  font-size: 18px;
 }
-.grid-nav-contacto {
-  display: none;
+.footer-redes {
+  display: flex;
+  gap: 1em;
 }
-
+b,
+strong {
+  font-weight: bold;
+}
 @media screen and (min-width: 768px) {
+  .footer {
+    height: 330px;
+    padding-bottom: 0px;
+  }
+  .grid-footer {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0em;
+  }
 }
 @media screen and (min-width: 1110px) {
-  .description-footer p {
-    font-size: 20px;
-  }
-  .redes {
-    gap: 1.5em;
-  }
-  .footer {
-    padding: 75px 20px 170px;
-  }
-  .grid-nav-contacto {
-    display: block;
-  }
-  .floating-wp {
-    display: none;
-  }
 }

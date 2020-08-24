@@ -22,14 +22,19 @@
   font-family: "Montserrat SemiBold";
   src: url("../fonts/Montserrat-SemiBold.ttf");
 }
-
-.carousel-indicators {
+@font-face {
+  font-family: "Montserrat Black";
+  src: url("../fonts/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Timeout-Regular";
+  src: url("../fonts/Timeout-Regular.otf");
 }
 
-.carousel .carousel-control-next-icon,
-.carousel .carousel-control-prev-icon {
-  display: none;
-}
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -38,274 +43,7 @@ body::-webkit-scrollbar-thumb {
   background: var(--bgfooter);
   border-radius: 10px;
 }
-.rgba-red-strong,
-.rgba-red-strong:after {
-  background-color: rgba(95, 188, 218, 1);
-}
 
-/****************************************************/
-.cabecera {
-  box-shadow: inset 2px 4px 7px 0px rgba(0, 0, 0, 0.1);
-  height: 0;
-}
-
-.bg-cabecera h2 {
-  margin: 0;
-  font-size: 50px;
-  max-width: 700px;
-  text-align: end;
-  font-family: "Montserrat Light";
-  color: #3a66a7;
-}
-.bg-cabecera p {
-  margin: 0;
-  font-size: 45px;
-  max-width: 700px;
-  text-align: center;
-  font-family: "Montserrat Regular";
-  font-weight: bold;
-  color: #3a66a7;
-}
-/**********************************/
-.grid-service {
-  display: grid;
-}
-.descriptions-service {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 0 10px;
-}
-
-.descriptions-service h4 {
-  font-family: "Montserrat Medium";
-  font-size: 20px;
-}
-.descriptions-service p {
-  font-family: "Montserrat Regular";
-  font-size: 11px;
-}
-.service-img img {
-  width: 100%;
-}
-
-/**************************/
-.vida {
-  background: #5fc4e1;
-  margin-bottom: 7em;
-}
-.grid-vida {
-  display: grid;
-}
-.grid-description-vida {
-  display: grid;
-  height: 100%;
-  align-content: center;
-  padding: 30px 20px;
-  text-align: justify;
-}
-.content-title-vida {
-  line-height: 35px;
-  margin-bottom: 2.5em;
-}
-.title-vida {
-  font-family: "Montserrat Regular";
-  font-size: 20px;
-  margin: 0;
-  padding: 0 0 0 0;
-}
-.subtitle-vida {
-  font-family: "Montserrat Regular";
-  font-size: 35px;
-  margin: 0;
-}
-.description-vida {
-  padding: 0 0 0 8px;
-}
-.description-vida p {
-  font-family: "Montserrat Light";
-  font-size: 17px;
-}
-.firma-vida {
-  text-align: center;
-  padding-top: 1.5em;
-}
-.firma-vida img {
-  width: 200px;
-}
-.bg-img-vida img {
-  width: 100%;
-}
-.btn-life {
-  font-family: "Montserrat Light";
-  color: #00244c;
-  border: 2px solid #00244c;
-  padding: 10px 25px;
-  font-size: 22px;
-  border-radius: 10px;
-}
-.grid-btn-life {
-  padding-top: 1em;
-}
-
-.btn-life:hover {
-  background: #001e40;
-  color: white;
-  font-weight: bold;
-}
-
-/**********/
-.salud {
-  padding: 50px 20px;
-}
-.linea {
-  height: 120px;
-}
-.linea hr {
-  height: 1px;
-  transform: rotate(90deg);
-  background: #3a66a7;
-  width: 150px;
-}
-.grid-salud {
-  max-width: 1024px;
-  margin: auto;
-  padding: 10px 0px;
-  text-align: center;
-}
-.grid-description-salud {
-}
-.comillas-pr {
-  font-size: 70px;
-  display: grid;
-  justify-content: right;
-  font-family: "Montserrat Light";
-}
-.content-comillas {
-  margin-top: 1em;
-  padding: 0 0px 0 15px;
-  font-family: "Montserrat Light";
-  font-size: 16px;
-}
-.content-comillas p {
-  margin: 0;
-  padding: 0;
-}
-.comillas-pr2 {
-  font-size: 70px;
-  transform: rotate(180deg);
-  display: grid;
-  justify-content: right;
-  font-family: "Montserrat Light";
-}
-.author-salud {
-  font-family: "Montserrat Light";
-  font-size: 16px;
-  text-align: center;
-  padding-top: 1em;
-}
-.author-salud p {
-  color: gray;
-}
-.title-salud h2 {
-  font-family: "Montserrat Medium";
-  font-size: 30px;
-  text-align: center;
-}
-/************************/
-.cita {
-  height: 150px;
-  background: linear-gradient(to left, #3a66a7, #64bcd9);
-  padding: 0 20px;
-}
-.grid-cita {
-  display: grid;
-  height: 100%;
-  align-items: center;
-  justify-items: center;
-}
-.btn-cita {
-  background: transparent;
-  width: 100%;
-  height: 60px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  font-family: "Montserrat Medium";
-  border: 2px solid #00244c;
-  border-radius: 10px;
-}
-.btn-cita:hover {
-  background: #001e40;
-  color: white;
-}
-/********************************/
-.experiencia {
-  padding: 35px 20px;
-}
-.grid-exp {
-  display: grid;
-  height: 100%;
-  align-content: center;
-  text-align: center;
-  max-width: 1100px;
-  margin: auto;
-}
-.title-exp h2 {
-  color: #5fc4e1;
-  font-size: 29px;
-  max-width: 370px;
-  margin: auto;
-  font-family: "Montserrat Light";
-  margin-bottom: 4em;
-}
-.title-exp p {
-  font-family: "Montserrat Light";
-  font-size: 18px;
-  text-align: justify;
-}
-
-.position_r {
-  position: relative;
-}
-.title-servicios-ab {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  font-family: "Montserrat Medium";
-  font-size: 30px;
-}
-.hover-title h4:hover {
-  top: 50px;
-}
-
-.vigneta {
-  box-shadow: inset 0px 25px 20px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: inset 0px 25px 20px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: inset 0px 25px 20px rgba(0, 0, 0, 0.2);
-}
-img.foto_auto {
-  z-index: -1;
-  position: relative;
-}
-.bg-cabecera {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  transform: translate(50%);
-  grid-template-rows: 40% 10% 10% 40%;
-  text-align: justify;
-}
 /**********MODAL*****************/
 .bg-modal-service {
   background: #ffffff;
@@ -370,139 +108,306 @@ img.foto_auto {
   justify-content: initial;
   align-items: center;
   padding: 0 20px;
+  display: none;
 }
+/******************banner_home***********************/
+.u-center {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.u-center-info {
+  display: grid;
+  height: 100%;
+  align-content: center;
+}
+
+.bg-banner_home {
+  position: relative;
+}
+.bg-banner_home img {
+  width: 100%;
+  object-fit: cover;
+}
+.primary-title-home {
+  font-size: 35px;
+  color: white;
+  margin: 0;
+  font-family: "Montserrat SemiBold";
+  line-height: 35px;
+  padding-left: 20px;
+  text-shadow: 4px 5px 8px black;
+}
+.secondary-title-home {
+  font-size: 35px;
+  color: white;
+  margin: 0;
+  font-family: "Montserrat Black";
+  padding-left: 20px;
+  text-shadow: 4px 5px 8px black;
+}
+.subtitle_banner {
+  max-width: 690px;
+  font-size: 16px;
+  font-family: "Montserrat Medium";
+  margin: 0;
+  line-height: 24px;
+  color: white;
+  padding-left: 20px;
+}
+/***********secondary home**************************/
+.bg-secondary-home {
+  position: relative;
+}
+.bg-secondary-home img {
+  width: 100%;
+  object-fit: cover;
+  height: 55vh;
+}
+.content-secondary-home {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 14px;
+}
+.grid-valores {
+  display: grid;
+  text-align: center;
+  row-gap: 1em;
+}
+.grid-valores h2 {
+  color: #00abbf;
+  font-family: "Montserrat Light";
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.info-secondary-home {
+  max-width: 635px;
+  margin: auto;
+  text-align: justify;
+  padding: 0 20px 20px;
+}
+.info-secondary-home p {
+  font-size: 18px;
+  font-family: "Montserrat Medium";
+  color: #6e6e6e;
+  margin: 0;
+}
+.u-line {
+  height: 6px;
+  background: gray;
+  margin: auto;
+  width: 120px;
+  border-radius: 20px;
+}
+/***********tercer-home************************/
+.grid-tertiary-home {
+  display: grid;
+}
+.bg-hoja-vida {
+  background: linear-gradient(to top, #00abbf, #5fc4e1);
+}
+.grid-hoja-vida {
+  height: 100%;
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.grid-hoja-vida h1 {
+  margin: 0;
+  color: transparent;
+  font-size: 80px;
+  -webkit-text-stroke: 0.5px white;
+  font-family: "Montserrat ExtraBold";
+  text-align: center;
+}
+.grid-hoja-vida p {
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat Medium";
+  line-height: 27px;
+  text-align: justify;
+}
+.grid-hoja-vida h2 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  font-family: "Timeout-Regular";
+  padding: 13px 0;
+}
+.grid-btn-vida {
+  text-align: center;
+}
+.bg-btn-vida {
+  background: linear-gradient(to top, #4565ad, #5e81d3);
+  width: 240px;
+  height: 40px;
+  display: grid;
+  margin: auto;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+}
+.btn-life {
+  color: white;
+  font-family: "Montserrat Light";
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+}
+.btn-life:hover {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.img-tertiary-home {
+  position: relative;
+}
+
+.img-tertiary-home img {
+  width: 100%;
+  object-fit: cover;
+}
+/***************************************************************/
+.grid-quaternary-home {
+  position: relative;
+}
+.img-quaternary-home {
+  position: relative;
+}
+.img-quaternary-home img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.list-servicios-home {
+  margin: 0;
+  padding: 0;
+  color: #0aaec2;
+  font-size: 17px;
+  font-family: "Montserrat Regular";
+  padding-left: 1em;
+}
+.title-servicio {
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1.5px black;
+  font-family: "Montserrat ExtraBold";
+  font-size: 40px;
+  text-align: center;
+}
+.tltle-quirurgico {
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1.5px black;
+  font-family: "Montserrat ExtraBold";
+  font-size: 40px;
+  padding-left: 0em;
+  text-align: center;
+}
+.grid-info-servicios {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  padding: 15px 20px 0;
+}
+.img-bg-servicios {
+  text-align: center;
+}
+.img-bg-servicios img {
+  height: 460px;
+}
+
 @media screen and (min-width: 768px) {
-  .btn-cita {
-    width: 235px;
+  .primary-title-home {
+    font-size: 70px;
+    padding-left: 50px;
   }
-  .content-comillas {
-    font-size: 23px;
+  .secondary-title-home {
+    font-size: 70px;
+    padding-left: 50px;
   }
-  .author-salud {
-    font-size: 23px;
+  .subtitle_banner {
+    font-size: 24px;
+    padding-left: 50px;
   }
-  .comillas-pr {
-    font-size: 100px;
+
+  .content-secondary-home {
+    width: 750px;
   }
-  .comillas-pr2 {
-    font-size: 100px;
+  .grid-valores {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0em;
   }
-  .descriptions-service p {
+  .bg-secondary-home img {
+    height: 240px;
+  }
+  .info-secondary-home {
+    text-align: center;
+    padding: 0 0 20px;
+  }
+  .info-secondary-home p {
     font-size: 20px;
   }
-  .descriptions-service h4 {
-    font-size: 30px;
+
+  .grid-hoja-vida p {
+    font-size: 20px;
   }
-  .title-exp h2 {
-    font-size: 50px;
-    margin-bottom: 2.5em;
-    max-width: 550px;
+  .grid-hoja-vida h2 {
+    text-align: end;
   }
-  .title-exp p {
-    font-size: 29px;
+  .list-servicios-home {
+    padding-top: 1em;
     text-align: center;
-    margin-bottom: 1.5em;
-  }
-  .grid-service-modal {
-    border-radius: 0 0 90px 30px;
-    padding: 0px 70px 50px;
-  }
-  .bg-modal-service {
-    border-radius: 60px 30px 0 0;
-    padding: 20px;
+    list-style: none;
   }
 }
 @media screen and (min-width: 1110px) {
-  .carousel-inner {
-    height: 82vh;
-  }
-  .logo-fong-movil {
-    display: none;
-  }
-  .linea {
-    height: 150px;
-  }
-  .grid-vida {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .grid-description-vida {
-    padding: 0 20px;
-  }
-  .content-title-vida {
-    line-height: 45px;
-    margin: 0 0px 10px;
-  }
-  .title-vida {
-    font-size: 25px;
-    padding: 0 0 0 8px;
-  }
-  .subtitle-vida {
-    font-size: 50px;
-  }
-  .description-vida p {
-    font-size: 19px;
-  }
-  .firma-vida {
+  .grid-hoja-vida h1 {
+    font-size: 120px;
+    line-height: 20px;
     text-align: initial;
   }
-  .grid-service {
+  .grid-hoja-vida {
+    padding: 90px 50px 0;
+  }
+
+  .grid-tertiary-home {
     grid-template-columns: repeat(2, 1fr);
   }
-  .descriptions-service {
-    padding: 0 60px;
-  }
-  .descriptions-service p {
-    font-size: 15px;
-  }
-  .title-exp h2 {
-    font-size: 50px;
-    margin-bottom: 2.5em;
-  }
-  .title-exp p {
-    font-size: 38px;
-    text-align: center;
+  .grid-hoja-vida {
+    max-width: 700px;
   }
 
-  .experiencia {
-    padding: 70px 0;
+  .content-servicios {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
   }
-
-  .bg-cabecera h2 {
-    font-size: 90px;
+  .grid-bg-servicios {
+    display: flex;
   }
-  .bg-cabecera p {
-    font-size: 90px;
+  .title-servicio {
+    font-size: 65px;
+    text-align: initial;
   }
-}
-
-@media screen and (min-width: 1240px) {
-  .descriptions-service p {
-    font-size: 20px;
+  .tltle-quirurgico {
+    font-size: 65px;
+    padding-left: 1em;
+    text-align: initial;
   }
-}
-
-@media screen and (min-width: 1540px) {
-  .content-title-vida {
-    line-height: 60px;
-    margin: 25px 0;
+  .list-servicios-home {
+    font-size: 24px;
+    padding-left: 8em;
+    text-align: initial;
+    list-style: initial;
   }
-  .title-vida {
-    font-size: 34px;
+  .img-bg-servicios img {
+    height: 692px;
   }
-  .subtitle-vida {
-    font-size: 80px;
+  .grid-info-servicios {
+    padding: 0 0 0;
   }
-  .grid-description-vida {
-    padding: 0 100px 0 80px;
-  }
-  .description-vida p {
-    font-size: 22px;
-  }
-  .firma-vida img {
-    width: initial;
-  }
-}
-
-@media screen and (min-width: 1440px) {
 }
