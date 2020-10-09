@@ -1,280 +1,329 @@
-.servicio {
-  background: url(../../images/servicios/bg-servicio.png) no-repeat top;
-  background-size: cover;
-  height: 100vh;
+.bg-servicio {
+  position: relative;
 }
-.grid-servicio {
+.img-bg-service {
+  width: 100%;
+  object-fit: cover;
+}
+.center-grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.box-grid {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bg-box-service {
+  background: #35447c;
+  height: 160px;
+  padding: 33px 40px;
+  border-radius: 40px;
+  display: none;
+}
+.grid-box-service {
+  display: grid;
+  grid-template-columns: 10% 10% 17% 13% 9% 9% 8% 10% 9%;
+  grid-gap: 0.5em;
+}
+.content-service {
+  text-align: center;
+  border: 1px solid #5fc4e1;
+  border-radius: 20px;
+  height: 98px;
+  transition: all 0.3s ease-in;
+}
+.content-service p {
+  color: white;
+  margin: 0;
+  font-family: "Montserrat Medium";
+  font-size: 12px;
+  margin-top: 0.5em;
+}
+.content-service:hover {
+  background: #5fc4e1;
+}
+
+.content-service.activado {
+  background: #5fc4e1;
+}
+
+/***********************/
+.content-btn-cita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 0 15px;
+}
+.btn-cita {
+  border: 1px solid white;
+  width: 200px;
+  height: 45px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+.btn-cita:hover {
+  background: white;
+  color: black;
+}
+.btn-cita p {
+  font-family: "Montserrat SemiBold";
+  margin: 0;
+  font-size: 15px;
+}
+.number-cita {
+  width: 200px;
+  height: 45px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: white;
+  transition: all 0.3s ease-in;
+  color: black;
+}
+.number-cita:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.number-cita p {
+  font-family: "Montserrat SemiBold";
+  margin: 0;
+  font-size: 15px;
+}
+
+/***********CUERPO****************/
+.bg-cuerpo-servicio {
+  position: relative;
+}
+.img-cuerpo-servicio {
+  width: 100%;
+  object-fit: cover;
+}
+.box-cuerpo-service {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 5px;
+  height: 100%;
+}
+.img-flecha-cuerpo {
+  text-align: center;
+  margin-top: 30px;
+}
+.grid-info-service {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  grid-gap: 2em;
+}
+.content-info-service {
+  text-align: center;
+}
+.content-info-service img {
+  margin-bottom: 0.7em;
+}
+.content-info-service p {
+  margin: 0;
+  color: #3a6ca9;
+  font-family: "Montserrat Regular";
+  font-size: 17px;
+}
+/**************************************/
+.bg-title-service {
+  position: relative;
+}
+.bg-title-service p {
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 0.3px #989898;
+  font-family: "Montserrat ExtraBold";
+  text-align: center;
+  line-height: 30px;
+  font-size: 39px;
+}
+.grid-title-service {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+.grid-title-service h1 {
+  font-size: 20px;
+  font-family: "Montserrat SemiBold";
+  margin: 0;
+}
+/**********************************/
+.grid-descripcion-service {
+  margin-top: 40px;
+  padding: 0 15px;
+}
+.content-grid-descripcion {
+}
+.list-descripcion-service {
+  list-style-image: url(./../../images/servicios/check.png);
+  font-size: 15px;
+  color: #3a6ca9;
+  font-family: "Montserrat Regular";
+}
+.list-descripcion-service li {
+  margin-bottom: 1.5em;
+}
+/************************************/
+.grid-description-extra {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0em;
+  margin-top: 40px;
+  padding: 0 25px;
+}
+.content-description-extra h2 {
+  color: #3a6ca9;
+  font-size: 24px;
+  font-family: "Montserrat Regular";
+}
+.content-description-extra p {
+  color: #6e6e6e;
+  font-size: 15px;
+  font-family: "Montserrat Regular";
+  text-align: justify;
+  margin: 0;
+}
+.content-description-extra {
   display: grid;
   height: 100%;
   align-content: center;
-  justify-content: center;
-  text-align: center;
-  max-width: 700px;
-  margin: auto;
 }
-.img-servicio {
+.img-service-extra {
+  margin-top: 1em;
   text-align: center;
-  padding-bottom: 9em;
 }
 
-.grid-servicio h2 {
-  font-family: "Montserrat SemiBold";
-  font-size: 45px;
-  color: white;
-  text-transform: uppercase;
-}
-.grid-servicio p {
-  font-family: "Montserrat Light";
-  font-size: 22px;
-  color: white;
-}
-.grid-btn-cita {
-  margin: auto;
-  width: 255px;
-  background: white;
-  height: 44px;
+/***************************************/
+.btn-botones-service {
   display: grid;
-  justify-content: center;
-  align-items: center;
-  font-family: "Montserrat Medium";
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 70px;
+  padding: 0 25px;
 }
-.grid-btn-cita a {
-  color: black;
-}
-.grid-servicio-options {
-  display: grid;
-}
-.grid-servicio-options-two {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.grid-description-options {
-  padding: 20px 20px;
-}
-.grid-description-options h2 {
-  font-family: "Montserrat Medium";
-  font-size: 21px;
-  padding-bottom: 0.3em;
-  text-align: center;
-}
-.grid-description-options p {
+
+.content-btn-iz span {
+  font-size: 16px;
+  color: #3a6ca9;
   font-family: "Montserrat Regular";
+  padding-left: 1em;
+}
+.content-btn-de {
+  text-align: end;
+}
+.content-btn-de span {
   font-size: 16px;
-}
-.grid-description-options-two {
-  padding: 20px 20px;
-}
-.grid-description-options-two h2 {
-  font-family: "Montserrat Medium";
-  font-size: 21px;
-  padding-bottom: 0.3em;
-  text-align: center;
-}
-.grid-description-options-two p {
+  color: #3a6ca9;
   font-family: "Montserrat Regular";
-  font-size: 16px;
+  padding-right: 1em;
 }
-
-.btncontacto {
-  font-family: "Montserrat Medium";
-  font-size: 23px;
-  color: black;
-}
-.grid-precio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  justify-items: center;
-  background: #229cbc;
-  color: white;
-  height: 90px;
-  padding: 0 10px;
-}
-.grid-precio-two {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  justify-items: center;
-  background: #2461ba;
-  color: white;
-  height: 90px;
-  padding: 0 10px;
-}
-.content-servicio-options {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.title-precio {
-  text-align: center;
-}
-.title-precio p {
-  font-size: 15px;
-  max-width: 230px;
-  line-height: 25px;
-  margin: 0;
-  font-family: "Montserrat SemiBold";
-}
-.subtitle-precio {
-  text-align: center;
-}
-.subtitle-precio p {
-  margin: 0;
-  font-family: "Montserrat Light";
-  font-size: 16px;
-}
-.precio-number {
-  line-height: 29px;
-}
-.desde {
-  font-family: "Montserrat Light";
-  font-size: 15px;
-  margin: 0;
-}
-.number-p {
-  font-family: "Montserrat SemiBold";
-  margin: 0;
-  font-size: 22px;
-}
-
-.img-serivio-options {
-  background: url(../../images/servicios/uno.png) no-repeat top;
-  background-size: cover;
-  height: 55vh;
-}
-.img-serivio-options-two {
-  background: url(../../images/servicios/dos.png) no-repeat top;
-  background-size: cover;
-  height: 55vh;
-}
-.grid-title-serv {
-  height: 160px;
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-}
-.grid-title-serv h2 {
-  margin: 0;
-  font-family: "Montserrat Medium";
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #001e40;
-}
-
-.grid-galery {
-  display: grid;
-  max-width: 1600px;
-  margin: auto;
-}
-.modal-lg {
-  background: white;
-}
-.img-galeria img {
-  cursor: zoom-in;
-}
-
 @media screen and (min-width: 768px) {
-  .grid-description-options h2 {
-    font-size: 26px;
+  .bg-title-service p {
+    font-size: 85px;
   }
-  .grid-description-options-two h2 {
-    font-size: 26px;
+  .grid-title-service h1 {
+    font-size: 30px;
   }
-  .grid-title-serv h2 {
-    font-size: 50px;
+  .grid-descripcion-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 120px;
+    padding: 0 0px;
   }
-  .grid-galery {
-    grid-template-columns: repeat(3, 1fr);
+  .content-grid-descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
   }
 }
 @media screen and (min-width: 1110px) {
-  .grid-servicio h2 {
-    font-size: 73px;
+  .grid-title-service h1 {
+    font-size: 60px;
   }
-  .grid-servicio p {
-    font-size: 23px;
+  .bg-box-service {
+    display: block;
   }
-  .grid-servicio-options {
-    grid-template-columns: 40% 60%;
+  .bg-title-service p {
+    font-size: 120px;
   }
-  .grid-servicio-options-two {
-    display: grid;
-    grid-template-columns: 60% 40%;
+  .grid-info-service {
+    margin-top: 150px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0em;
   }
-  .grid-description-options {
-    padding: 10px 40px 0 50px;
+  .grid-description-extra {
+    margin-top: 85px;
+    padding: 0 60px;
+    grid-template-columns: repeat(2, 1fr);
   }
-  .grid-description-options h2 {
-    font-size: 36px;
-    text-align: initial;
+  .img-service-extra {
+    margin-top: 0em;
+    text-align: end;
   }
-  .grid-description-options p {
-    font-size: 17px;
+  .btn-botones-service {
+    margin-top: 160px;
+    padding: 0 60px;
   }
-  .grid-description-options-two {
-    padding: 10px 40px 0 50px;
-  }
-  .grid-description-options-two h2 {
-    font-size: 36px;
-    text-align: initial;
-  }
-  .grid-description-options-two p {
-    font-size: 17px;
-  }
-  .grid-precio {
-    padding: 0 0;
-  }
-  .grid-precio-two {
-    padding: 0 0;
-  }
-  .title-precio {
-    text-align: initial;
-  }
-  .title-precio p {
-    font-size: 21px;
-  }
-  .subtitle-precio p {
-    font-size: 21px;
-  }
-  .desde {
+  .content-btn-iz span {
     font-size: 20px;
   }
-  .number-p {
-    font-size: 40px;
+  .content-btn-de span {
+    font-size: 20px;
   }
-  .subtitle-precio {
-    text-align: initial;
-    display: grid;
-    width: 100%;
-    justify-items: end;
+  .content-btn-cita {
+    padding: 0 0px;
   }
-  .grid-galery {
-    grid-template-columns: repeat(4, 1fr);
+  .btn-cita {
+    width: 215px;
+    height: 63px;
   }
-}
-@media screen and (min-width: 1240px) {
+  .btn-cita p {
+    font-size: 20px;
+  }
+  .number-cita {
+    width: 215px;
+    height: 63px;
+  }
+  .number-cita p {
+    font-size: 20px;
+  }
+  .list-descripcion-service {
+    font-size: 18px;
+  }
+  .content-description-extra p {
+    font-size: 19px;
+  }
 }
 
-@media screen and (min-width: 1440px) {
-  .grid-description-options {
-    padding: 20px 100px 0 82px;
-  }
-  .grid-description-options p {
-    font-size: 19px;
-  }
-  .grid-description-options-two {
-    padding: 20px 100px 0 82px;
-  }
-  .grid-description-options-two p {
-    font-size: 19px;
+@media screen and (min-width: 1250px) {
+  .bg-title-service p {
+    font-size: 140px;
   }
 }
-@media screen and (min-width: 1640px) {
-  .grid-description-options {
-    padding: 40px 130px 0 82px;
-  }
-  .grid-description-options-two {
-    padding: 40px 130px 0 82px;
+@media screen and (min-width: 1400px) {
+  .bg-title-service p {
+    font-size: 160px;
   }
 }

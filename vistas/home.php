@@ -10,7 +10,7 @@ include_once 'plantillas/nav/index.php';
         <div class="u-center">
             <div class="u-grid-content wow fadeIn" data-wow-delay="0.4s">
                 <div class="u-center-info">
-                    <p class="primary-title-home z-depth-2"> Tu bienestar </p>
+                    <p class="primary-title-home"> Tu bienestar </p>
                     <p class="secondary-title-home">en buenas manos</p>
                     <p class="subtitle_banner"> Atención personalizada y el seguimiento desde el primer día hasta la
                         recuperación de
@@ -60,7 +60,7 @@ include_once 'plantillas/nav/index.php';
         </div>
         <div class="bg-hoja-vida">
             <div class="grid-hoja-vida">
-                <h1>!HOLA!</h1>
+                <h1>HOLA</h1>
                 <p>
                     Soy Cirujano General y Laparoscópico; con registro del Colegio Médico del Perú 56737 y Registro
                     Nacional de Especialidad 31929. Natural de la ciudad de Trujillo, conocida como la Ciudad de la
@@ -104,27 +104,26 @@ include_once 'plantillas/nav/index.php';
                                 <div class="grid-testimonio-img">
                                     <p>
                                         Es un excelente médico, muy amable, se preocupa mucho por sus pacientes. Tuve la
-                                        oportunidad que me atendiera en el seguro de Pisco. Gracias, doctor.
+                                        oportunidad que me atendiera. Gracias doctor.
                                     </p>
-                                    <h6>- Ariana Marcani -</h6>
+                                    <h6>- Silvia Sánchez -</h6>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="grid-testimonio-img">
                                     <p>
-                                        Es un excelente médico, muy amable, se preocupa mucho por sus pacientes. Tuve la
-                                        oportunidad que me atendiera en el seguro de Pisco. Gracias, doctor.
+                                        Un buen trato sin mirar a quien, solo a su paciente con tranquilidad y empatía.
                                     </p>
-                                    <h6>- Ariana Marcani2 -</h6>
+                                    <h6>- Ana Espino -</h6>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="grid-testimonio-img">
                                     <p>
-                                        Es un excelente médico, muy amable, se preocupa mucho por sus pacientes. Tuve la
-                                        oportunidad que me atendiera en el seguro de Pisco. Gracias, doctor.
+                                        Es un médico que te da la confianza de que todo va a salir bien con mucho
+                                        profesionalismo y gran equipo.
                                     </p>
-                                    <h6>- Ariana Marcani3 -</h6>
+                                    <h6>- Marisol Martinz -</h6>
                                 </div>
                             </div>
                         </div>
@@ -161,8 +160,6 @@ include_once 'plantillas/nav/index.php';
         </div>
     </div>
 </section>
-
-
 
 
 

@@ -22,6 +22,7 @@
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
   text-align: center;
+  margin: 0;
 }
 .grid-list-navbar li a {
   font-family: "Montserrat Regular";
