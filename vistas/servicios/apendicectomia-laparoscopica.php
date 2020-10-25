@@ -109,14 +109,7 @@ include_once 'plantillas/nav/index.php';
                         </div>
                     </div>
                 </div>
-                <div class="content-btn-cita">
-                    <div class="btn-cita">
-                        <p>Pide cita online</p>
-                    </div>
-                    <div class="number-cita">
-                        <p>914 002 000</p>
-                    </div>
-                </div>
+                <?php  include_once 'plantillas/phone.php';?>
             </div>
         </div>
     </div>
