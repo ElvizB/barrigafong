@@ -3,6 +3,7 @@
 }
 .grid-locales {
   display: grid;
+  padding-bottom: 1.5em;
 }
 .grid-locales-two {
   display: flex;
@@ -15,7 +16,7 @@
   justify-content: center;
   text-align: initial;
   padding: 40px 0px;
-  box-shadow: inset 5px -2px 20px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: inset 5px -2px 20px 0px rgba(0, 0, 0, 0.1); */
 }
 .descriptions-local h2 {
   font-family: "Montserrat Regular";
@@ -26,6 +27,9 @@
   font-family: "Montserrat Regular";
   font-size: 18px;
 }
+.map-container-section {
+  height: 300px;
+}
 
 @media screen and (min-width: 768px) {
   .grid-locales {
@@ -34,6 +38,9 @@
   .grid-locales-two {
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+  .map-container-section {
+    height: 560px;
   }
 }
 @media screen and (min-width: 1024px) {

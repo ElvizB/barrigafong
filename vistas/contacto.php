@@ -4,100 +4,98 @@ include_once 'plantillas/documento-declaracion.inc.php';
 include_once 'plantillas/nav/index.php';
 ?>
 
-<section class="contacto">
-    <div class="grid-contacto">
-        <div class="bg-info-contacto wow fadeInUp" data-wow-delay="0.4s">
-            <div class="info-contacto">
-                <div>
-                    <img src="<?php echo RUTA_IMG?>footer/icon.png" draggable="false" class="img-fluid" />
-                    <div class="datos-contacto">
-                        <p>
-                            Dr. Barriga Fong <br />
-                            Cirujano General y Laparoscópico
-                        </p>
-                        <p>
-                            Pisco: Clínica FamiSalud<br />
-                            Ica: Clínica Regional<br />
-                            Nasca: Clínica Napoleón
-                        </p>
-                        <p>
-                            949-703-230<br />
-                            hengui_fong@hotmail.com
-                        </p>
+<section class="banner_contact">
+    <div class="bg-banner_contact">
+        <img loading="lazy" src="<?php echo RUTA_IMG?>contacto/banner.png" draggable="false" height="830" />
+        <div class="u-center">
+            <div class="u-grid-content wow fadeIn" data-wow-delay="0.4s">
+                <div class="grid-contact">
+                    <div class="content-contact-info">
+                        <div class="padding-form">
+                            <div class="content-info-doc">
+                                <h2><b>Dr. Barriga Fong </b></h2>
+                                <p>Cirujano General y Laparoscópico</p>
+                            </div>
+                            <div class="content-info-hospital">
+                                <p><b>Pisco:</b> Clínica FamiSalud</p>
+                                <p><b>Ica</b>: Clínica Regional</p>
+                                <p><b>Nasca:</b> Clínica Napoleón</p>
+                            </div>
+                            <div class="content-info-telephone">
+                                <p>949-703-230 </p>
+                                <p>hengui_fong@hotmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-contact-info">
+                        <div class="contacto-formulario">
+                            <div class="formulario">
+                                <div class="wrapper-form">
+                                    <form id="formulario" class="form" role="form" action="" method="POST">
+                                        <p class="title-cita"><b>AGENDEMOS UNA CITA</b></p>
+                                        <div class="grid-input-two">
+                                            <div class="form-inputs">
+                                                <!-- <label for="">Nombre y Apellido</label> -->
+                                                <input type="text" id="nombre" name="nombre" class="form-control"
+                                                    placeholder="Nombre">
+                                            </div>
+                                        </div>
+                                        <div class="grid-input-two">
+                                            <div class="form-inputs">
+                                                <!-- <label for="">Teléfono</label> -->
+                                                <input type="text" id="telefono" name="telefono" class="form-control"
+                                                    placeholder="Teléfono">
+                                            </div>
+                                        </div>
+                                        <div class="grid-input-two">
+                                            <div class="form-inputs">
+                                                <!-- <label for="">Email</label> -->
+                                                <input type="text" id="email" name="email" class="form-control"
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-input-two">
+                                            <div class="select_form">
+                                                <!-- <p class="title_planes">Clínica</p> -->
+                                                <select name="planes" id="planes">
+                                                    <option value="" selected disabled>Clinica
+                                                    </option>
+                                                    <option value="Plan Bronce">Clinica 1</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="md-form">
+                                            <div class="g-recaptcha text-center"
+                                                data-sitekey="6LeD_M0ZAAAAAJ2nGHnWrY0FBtBs6LojyQjNp5pH">
+                                            </div>
+                                            <div id="g-recaptcha-error"></div>
+                                        </div>
+                                        <div class="condiciones-form">
+                                            <p>Acepto la política de privacidad y el area legal.</p>
+                                        </div>
+
+                                        <div id="respuesta"></div>
+                                        <div class="grid-btn-enviar">
+                                            <button id="btnenviar"
+                                                class="btn waves-effect waves-light btn-enviar-contacto">
+                                                <b> enviar</b>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
-                <div class="redes-contacto">
-                    <a href="https://www.facebook.com/Dr.BarrigaFong" target="_blank"> <img
-                            src="<?php echo RUTA_IMG?>contacto/fb.png" draggable="false" class="img-fluid" /></a>
-                    <a href="https://www.instagram.com/dr.barrigafong/" target="_blank"> <img
-                            src="<?php echo RUTA_IMG?>contacto/ig.png" draggable="false" class="img-fluid" /></a>
-                    <a href="https://www.linkedin.com/in/victor-hugo-barriga-fong-b598441a2" target="_blank"> <img
-                            src="<?php echo RUTA_IMG?>contacto/ln.png" draggable="false" class="img-fluid" /></a>
-                    <a href="https://api.whatsapp.com/send?phone=51949703230&text=hola" target="_blank"> <img
-                            src="<?php echo RUTA_IMG?>contacto/wp.png" draggable="false" class="img-fluid" /></a>
-                    <!----  <a href="#" target="_blank"> <img src="<?php echo RUTA_IMG?>contacto/yt.png" draggable="false"
-                            class="img-fluid" /></a>------>
-                </div>
-            </div>
-        </div>
-        <div class="form-contacto">
-            <div class="grid-form-contacto wow fadeInUp" data-wow-delay="0.4s">
-                <div class="title-form">
-                    <p>Agendemos una cita</p>
-                </div>
-                <form id="formulario" class="form" role="form" action="" method="POST">
-
-                    <div class="grid-inputs">
-                        <div class="md-form">
-                            <input type="text" class="form-control" id="nombre" name="nombre">
-                            <label for="nombre">APELLIDO</label>
-                        </div>
-
-                        <div class="md-form">
-
-                            <input type="text" class="form-control" id="email" name="email">
-                            <label for="email">EMAIL</label>
-                        </div>
-                    </div>
-
-
-                    <div class="grid-inputs">
-                        <div class="md-form">
-
-                            <input type="text" class="form-control" id="asunto" name="asunto">
-                            <label for="asunto">TELÉFONO</label>
-                        </div>
-
-                        <div class="md-form">
-
-                            <input type="text" class="form-control" id="asunto" name="asunto">
-                            <label for="asunto">MOTIVO</label>
-                        </div>
-
-                    </div>
-
-                    <div class="md-form">
-
-                        <textarea class="form-control md-textarea" id="mensaje" name="mensaje" rows="3"></textarea>
-                        <label for="mensaje">CASO</label>
-                    </div>
-                    <div class="form-group mt-4">
-                        <div class="g-recaptcha text-center" data-sitekey="6LfgYbwUAAAAAPWDkxumlQNLS2gssZzO_2zkYc8l">
-                        </div>
-                        <div id="g-recaptcha-error"></div>
-                    </div>
-
-                    <div id="respuesta"></div>
-
-                    <button id="btnenviar" class="btn-enviar">
-                        Enviar
-                    </button>
-                </form>
             </div>
         </div>
     </div>
 </section>
-
 
 <?php
   include_once 'plantillas/footer.php';

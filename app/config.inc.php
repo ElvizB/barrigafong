@@ -10,9 +10,18 @@
 //http://localhost/fongperu
 
 define("SERVIDOR", "https://barrigafong.herokuapp.com/");
-define("RUTA_SERVICIOS", SERVIDOR."servicios");
+// define("RUTA_SERVICIOS", SERVIDOR."servicios");
 define("RUTA_CONTACTO", SERVIDOR."contacto");
 define("RUTA_LOCALES", SERVIDOR."locales");
+define("RUTA_CL", SERVIDOR."colecistectoia-laparoscopica");
+define("RUTA_AL", SERVIDOR."apendicectomia-laparoscopica");
+define("RUTA_VIAS", SERVIDOR."colecistectomia-mas-exploracion-de-vias-biliares-laparoscopica");
+define("RUTA_HIL", SERVIDOR."hernioplastia-inguinal-laparoscopica");
+define("RUTA_EA", SERVIDOR."eventroplastia-abdominal");
+define("RUTA_HU", SERVIDOR."hernioplastia-umbilical");
+define("RUTA_HC", SERVIDOR."hernioplastia-crural");
+define("RUTA_HEMORROIDECTOMIA", SERVIDOR."hemorroidectomia");
+define("RUTA_FP", SERVIDOR."fistulectomia-perianal");
 
 //recursos
 define("RUTA_CSS", SERVIDOR . "css/");

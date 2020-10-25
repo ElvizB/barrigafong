@@ -13,84 +13,86 @@ include_once 'plantillas/nav/index.php';
             <div class="box-grid">
                 <div class="bg-box-service">
                     <div class="grid-box-service">
-                        <div class="content-service activado">
-                            <a href="#">
+                        <div class="content-service">
+                            <a href="<?php echo RUTA_CL ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s1.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Colecistectomía laparoscópica</p>
                             </a>
                         </div>
-                        <div class="content-service">
-                            <a href="#">
+                        <div class="content-service ">
+                            <a href="<?php echo RUTA_AL ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s2.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Apendicectomía laparoscópica</p>
                             </a>
                         </div>
-                        <div class="content-service">
-                            <a href="#">
+
+
+                        <div class="content-service activado">
+                            <a href="<?php echo RUTA_VIAS ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s3.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Colecistectomía más exploración de vías biliares laparoscópica</p>
                             </a>
                         </div>
                         <div class="content-service">
-                            <a href="#">
+                            <a href="<?php echo RUTA_HIL ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s4.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Hernioplastía inguinal laparoscópica</p>
                             </a>
                         </div>
                         <div class="content-service">
-                            <a href="#">
+                            <a href="<?php echo RUTA_EA ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s5.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Eventroplastía abdominal</p>
                             </a>
                         </div>
 
                         <div class="content-service">
-                            <a href="#">
+                            <a href="<?php echo RUTA_HU ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s6.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Hernioplastia umbilical</p>
                             </a>
                         </div>
                         <div class="content-service">
-                            <a href="#">
+                            <a href="<?php echo RUTA_HC ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s7.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Hernioplastía crural</p>
                             </a>
                         </div>
                         <div class="content-service">
-                            <a href="#">
+                            <a href="<?php echo RUTA_HEMORROIDECTOMIA ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s8.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Hemorroidectomía</p>
                             </a>
                         </div>
                         <div class="content-service">
-                            <a href="#">
+                            <a href="<?php echo RUTA_FP ?>">
                                 <div class="img-circle">
-                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/circle.png"
-                                        draggable="false" height="43" />
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s9.png" draggable="false"
+                                        height="43" />
                                 </div>
                                 <p>Fistulectomía perianal</p>
                             </a>
@@ -98,11 +100,14 @@ include_once 'plantillas/nav/index.php';
 
                     </div>
                 </div>
-                <div class="bg-title-service">
-                    <p>Colecistectomía laparoscópica</p>
+                <div class="bg-title-service-op">
+                    <p>Colecistectomía más exploración de vías biliares laparoscópica </p>
                     <div class="center-grid">
                         <div class="grid-title-service">
-                            <h1>Colecistectomía laparoscópica</h1>
+                            <h1>Colecistectomía más </h1>
+                            <h1> exploración de vías</h1>
+                            <h1> biliares laparoscópica</h1>
+                            <!-- <h1><b>APENDILAP</b></h1> -->
                         </div>
                     </div>
                 </div>
@@ -122,7 +127,7 @@ include_once 'plantillas/nav/index.php';
 
 <section class="cuerpo-servicio">
     <div class="bg-cuerpo-servicio">
-        <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/bg-cuerpo.png" draggable="false" height="1737"
+        <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/bg-cuerpo.png" draggable="false" height="1550"
             class="img-cuerpo-servicio" />
         <div class="center-grid">
             <div class="box-cuerpo-service">
@@ -133,22 +138,22 @@ include_once 'plantillas/nav/index.php';
                     <div class="content-info-service">
                         <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/c1.png" draggable="false" />
                         <p><b>Tiempo de la cirugía</b></p>
-                        <p>30 min.</p>
+                        <p>2 horas</p>
                     </div>
                     <div class="content-info-service">
                         <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/c2.png" draggable="false" />
                         <p><b>Estancia en la clínica</b></p>
-                        <p>Ambulatoria</p>
+                        <p>2 días</p>
                     </div>
                     <div class="content-info-service">
                         <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/c3.png" draggable="false" />
                         <p><b>Anestesia</b></p>
-                        <p>Local</p>
+                        <p>General</p>
                     </div>
                     <div class="content-info-service">
                         <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/c4.png" draggable="false" />
                         <p><b>Recuperación</b></p>
-                        <p>30 días</p>
+                        <p>7 días</p>
                     </div>
                 </div>
                 <div class="grid-descripcion-service">
@@ -172,25 +177,25 @@ include_once 'plantillas/nav/index.php';
                     <div class="content-description-extra">
                         <h2><b>Descripción</b></h2>
                         <p>
-                            Es la extracción de la vesícula biliar a través de 3 incisiones pequeñas de 0.5 cm, el
-                            paciente tiene mínimo dolor post operatorio, va a casa al día siguiente de la intervención y
-                            retorna prontamente a sus actividades normales.</p>
+                            Se realiza la extracción de la vesícula biliar y se ingresa al colédoco extrayéndose los
+                            cálculos de forma mínimamente invasiva.
+                        </p>
 
                     </div>
                     <div class="img-service-extra">
-                        <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/s1.png" draggable="false"
+                        <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/d3.png" draggable="false"
                             class="img-fluid" />
                     </div>
                 </div>
                 <div class="btn-botones-service">
                     <div class="content-btn-iz">
-                        <a href="">
+                        <a href="<?php echo RUTA_AL ?>">
                             <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/iz.png" draggable="false" />
                             <span>Ir a anterior</span>
                         </a>
                     </div>
                     <div class="content-btn-de">
-                        <a href="">
+                        <a href="<?php echo RUTA_HIL ?>">
                             <span>Ir a siguiente</span>
                             <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/de.png" draggable="false" />
                         </a>
@@ -200,7 +205,6 @@ include_once 'plantillas/nav/index.php';
         </div>
     </div>
 </section>
-
 
 
 <?php

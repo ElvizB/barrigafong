@@ -24,7 +24,7 @@
 }
 .bg-box-service {
   background: #35447c;
-  height: 160px;
+  height: 170px;
   padding: 33px 40px;
   border-radius: 40px;
   display: none;
@@ -38,7 +38,7 @@
   text-align: center;
   border: 1px solid #5fc4e1;
   border-radius: 20px;
-  height: 98px;
+  height: 105px;
   transition: all 0.3s ease-in;
 }
 .content-service p {
@@ -47,6 +47,7 @@
   font-family: "Montserrat Medium";
   font-size: 12px;
   margin-top: 0.5em;
+  height: 45%;
 }
 .content-service:hover {
   background: #5fc4e1;
@@ -54,6 +55,9 @@
 
 .content-service.activado {
   background: #5fc4e1;
+}
+.img-circle {
+  margin-top: 0.4em;
 }
 
 /***********************/
@@ -75,10 +79,10 @@
   color: white;
   transition: all 0.3s ease-in;
 }
-.btn-cita:hover {
+/* .btn-cita:hover {
   background: white;
   color: black;
-}
+} */
 .btn-cita p {
   font-family: "Montserrat SemiBold";
   margin: 0;
@@ -95,11 +99,11 @@
   transition: all 0.3s ease-in;
   color: black;
 }
-.number-cita:hover {
+/* .number-cita:hover {
   background: transparent;
   color: white;
   border: 1px solid white;
-}
+} */
 .number-cita p {
   font-family: "Montserrat SemiBold";
   margin: 0;
@@ -146,6 +150,18 @@
 .bg-title-service {
   position: relative;
 }
+.bg-title-service-op {
+  position: relative;
+}
+.bg-title-service-op p {
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 0.3px #989898;
+  font-family: "Montserrat ExtraBold";
+  text-align: center;
+  line-height: 30px;
+  font-size: 39px;
+}
 .bg-title-service p {
   margin: 0;
   color: transparent;
@@ -166,6 +182,7 @@
   font-size: 20px;
   font-family: "Montserrat SemiBold";
   margin: 0;
+  text-align: center;
 }
 /**********************************/
 .grid-descripcion-service {
@@ -240,6 +257,9 @@
   .bg-title-service p {
     font-size: 85px;
   }
+  .bg-title-service-op p {
+    font-size: 85px;
+  }
   .grid-title-service h1 {
     font-size: 30px;
   }
@@ -267,6 +287,11 @@
   }
   .bg-title-service p {
     font-size: 120px;
+    line-height: 70px;
+  }
+  .bg-title-service-op p {
+    font-size: 120px;
+    line-height: 70px;
   }
   .grid-info-service {
     margin-top: 150px;
@@ -321,9 +346,15 @@
   .bg-title-service p {
     font-size: 140px;
   }
+  .bg-title-service-op p {
+    font-size: 140px;
+  }
 }
 @media screen and (min-width: 1400px) {
   .bg-title-service p {
     font-size: 160px;
+  }
+  .bg-title-service-op p {
+    font-size: 115px;
   }
 }
