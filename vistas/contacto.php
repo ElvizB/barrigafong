@@ -93,14 +93,16 @@ include_once 'plantillas/nav/index.php';
 
                                         </div>
 
-
-
                                         <div class="grid-input-two">
                                             <div class="form-inputs">
                                                 <!-- <label for="">Email</label> -->
                                                 <input type="time" id="email" name="email" class="form-control"
                                                     placeholder="Email">
                                             </div>
+                                        </div>
+                                        <div class="grid-input-two">
+                                            <textarea class="form-control rounded-0" id="mensaje" name="mensaje"
+                                                rows="4" placeholder="MENSAJE"></textarea>
                                         </div>
 
 

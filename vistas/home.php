@@ -3,27 +3,6 @@ include_once 'app/config.inc.php';
 include_once 'plantillas/documento-declaracion.inc.php';
 include_once 'plantillas/nav/index.php';
 ?>
-
-<!-- <section class="banner_home">
-    <div class="bg-banner_home">
-        <img loading="lazy" src="<?php echo RUTA_IMG?>home/banner_home.png" draggable="false" height="763" />
-        <div class="u-center">
-            <div class="u-grid-content wow fadeIn" data-wow-delay="0.4s">
-                <div class="u-center-info">
-                    <p class="primary-title-home"> Tu bienestar </p>
-                    <p class="secondary-title-home">en buenas manos</p>
-                    <p class="subtitle_banner"> Atención personalizada y el seguimiento desde el primer día hasta la
-                        recuperación de
-                        cada
-                        paciente.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
 <section>
 
     <!--Carousel Wrapper-->

@@ -148,6 +148,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 24px;
   color: white;
   padding-left: 20px;
+  text-shadow: 4px 5px 8px black;
 }
 /***********secondary home**************************/
 .bg-secondary-home {
@@ -337,6 +338,9 @@ body::-webkit-scrollbar-thumb {
 .u-spacing-line {
   margin-top: 2em;
   margin-bottom: 1em;
+}
+textarea.form-control {
+  resize: none;
 }
 @media screen and (min-width: 768px) {
   .primary-title-home {

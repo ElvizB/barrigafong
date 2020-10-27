@@ -23,6 +23,10 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>drown-down.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>select.js"></script>
 <script type="text/javascript">
+$('.carousel').carousel({
+    interval: 2000
+})
+
 function menuToggle() {
     var nav = document.getElementById('menu-overlay');
     nav.classList.toggle('active');
