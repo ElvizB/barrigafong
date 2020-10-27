@@ -57,19 +57,56 @@ include_once 'plantillas/nav/index.php';
 
                                         <div class="grid-input-two">
                                             <div class="select_form">
-                                                <!-- <p class="title_planes">Clínica</p> -->
-                                                <select name="planes" id="planes">
-                                                    <option value="" selected disabled>Clinica
+                                                <select name="clinica" id="clinica">
+                                                    <option value="" selected disabled>CLÍNICA
                                                     </option>
-                                                    <option value="Plan Bronce">Clinica 1</option>
+                                                    <option value="Plan Bronce">Clínica FamiSalud</option>
+                                                    <option value="Plan Bronce">Clínica Regional</option>
+                                                    <option value="Plan Bronce">Clínica Napoleon II</option>
                                                 </select>
+                                            </div>
+
+                                            <!-- <div class="select-box">
+                                                <div class="options-container">
+                                                    <div class="option">
+                                                        <input type="radio" class="radio" id="automobiles"
+                                                            name="category" />
+                                                        <label for="automobiles">Clínica FamiSalud</label>
+                                                    </div>
+
+                                                    <div class="option">
+                                                        <input type="radio" class="radio" id="film" name="category" />
+                                                        <label for="film">Clínica Regional</label>
+                                                    </div>
+
+                                                    <div class="option">
+                                                        <input type="radio" class="radio" id="science"
+                                                            name="category" />
+                                                        <label for="science">Clínica Napoleon II</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="selected">
+                                                    Seleccione Clínica
+                                                </div>
+                                            </div> -->
+
+                                        </div>
+
+
+
+                                        <div class="grid-input-two">
+                                            <div class="form-inputs">
+                                                <!-- <label for="">Email</label> -->
+                                                <input type="time" id="email" name="email" class="form-control"
+                                                    placeholder="Email">
                                             </div>
                                         </div>
 
 
                                         <div class="md-form">
                                             <div class="g-recaptcha text-center"
-                                                data-sitekey="6LeD_M0ZAAAAAJ2nGHnWrY0FBtBs6LojyQjNp5pH">
+                                                data-sitekey="6LcR4tsZAAAAAPnn5Jq4lfmZxtSbl63jChIMI0pY">
                                             </div>
                                             <div id="g-recaptcha-error"></div>
                                         </div>

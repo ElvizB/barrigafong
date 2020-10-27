@@ -11,7 +11,7 @@ include_once 'plantillas/nav/index.php';
         <div class="u-center pt-5">
             <div class="grid-locales">
                 <div class="info-local wow fadeIn" data-wow-delay="0.4s">
-                    <div class="descriptions-local">
+                    <div class="arrow descriptions-local">
                         <h2>PISCO</h2>
                         <p>
                             Clínica FamiSalud<br />
@@ -19,12 +19,12 @@ include_once 'plantillas/nav/index.php';
                             (56) 534 821<br />
                             admision1.pisco@famisalud.com.pe
                         </p>
-                    </div>
-                    <div class="descriptions-local">
-                        <h2>Horario de atención</h2>
-                        <p>
-                            Miércoles 08:30 hrs - 18:00 hrs
-                        </p>
+                        <div class="descriptions-local">
+                            <h2>Horario de atención</h2>
+                            <p>
+                                Miércoles 08:30 hrs - 18:00 hrs
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="map-local">
@@ -40,7 +40,7 @@ include_once 'plantillas/nav/index.php';
 
             <div class="grid-locales">
                 <div class="info-local wow fadeIn" data-wow-delay="0.4s">
-                    <div class="descriptions-local">
+                    <div class="arrow descriptions-local">
                         <h2>ICA </h2>
                         <p>
                             Clínica Regional<br />
@@ -48,13 +48,14 @@ include_once 'plantillas/nav/index.php';
                             (56) 611 993
 
                         </p>
+                        <div class="descriptions-local">
+                            <h2>Horario de atención</h2>
+                            <p>
+                                Lunes – Domingos 00:00 hrs – 24:00 hrs
+                            </p>
+                        </div>
                     </div>
-                    <div class="descriptions-local">
-                        <h2>Horario de atención</h2>
-                        <p>
-                            Lunes – Domingos 00:00 hrs – 24:00 hrs
-                        </p>
-                    </div>
+
                 </div>
                 <div class="map-local">
                     <div id="map-container-section" class="map-container-section z-depth-1">
@@ -69,22 +70,21 @@ include_once 'plantillas/nav/index.php';
 
             <div class="grid-locales">
                 <div class="info-local wow fadeIn" data-wow-delay="0.4s">
-                    <div class="descriptions-local">
+                    <div class="arrow descriptions-local">
                         <h2>NASCA </h2>
                         <p>
                             Clínica Napoleon II<br />
                             Av. Lima 300<br />
                             (56) 522 387
                         </p>
-                    </div>
-                    <div class="descriptions-local">
-                        <h2>Horario de atención</h2>
-                        <p>
-                            Lunes – Viernes 07:00 hrs – 21:00 hrs
-                            <br>
-                            Sábado – Domingo 07:00 hrs – 21:00 hrs
-                        </p>
-
+                        <div class="descriptions-local">
+                            <h2>Horario de atención</h2>
+                            <p>
+                                Lunes – Viernes 07:00 hrs – 21:00 hrs
+                                <br>
+                                Sábado – Domingo 07:00 hrs – 21:00 hrs
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="map-local">

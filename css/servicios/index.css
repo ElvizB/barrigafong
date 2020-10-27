@@ -63,6 +63,7 @@
 /***********************/
 .content-btn-cita {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1em;
@@ -79,31 +80,31 @@
   color: white;
   transition: all 0.3s ease-in;
 }
-/* .btn-cita:hover {
-  background: white;
-  color: black;
-} */
+.btn-cita:hover {
+  background: #5fc4e1;
+  /* color: black; */
+}
 .btn-cita p {
   font-family: "Montserrat SemiBold";
   margin: 0;
   font-size: 15px;
 }
 .number-cita {
+  border: 1px solid white;
   width: 200px;
   height: 45px;
   display: grid;
   justify-content: center;
   align-items: center;
   border-radius: 40px;
-  background: white;
+  color: white;
   transition: all 0.3s ease-in;
-  color: black;
 }
-/* .number-cita:hover {
-  background: transparent;
+.number-cita:hover {
+  background: #25d366;
   color: white;
   border: 1px solid white;
-} */
+}
 .number-cita p {
   font-family: "Montserrat SemiBold";
   margin: 0;
@@ -276,6 +277,9 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
+  }
+  .content-btn-cita {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1110px) {

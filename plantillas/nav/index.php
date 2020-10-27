@@ -19,7 +19,7 @@
                         <li>
                             <a href="#" class="nav_link">
                                 SERVICIOS
-                                <img src="<?php echo RUTA_IMG?>flecha.png" class="img-fluid wow pulse" />
+                                <span class="arrow-bottom"></span>
                             </a>
                             <ul class="triangulo">
                                 <li>

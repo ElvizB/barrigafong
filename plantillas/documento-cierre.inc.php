@@ -21,6 +21,7 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>loading.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>drown-down.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>select.js"></script>
 <script type="text/javascript">
 function menuToggle() {
     var nav = document.getElementById('menu-overlay');
@@ -28,6 +29,7 @@ function menuToggle() {
     var nav = document.getElementById('toggleIcon');
     nav.classList.toggle('active');
 }
+
 new WOW().init();
 </script>
 </body>
