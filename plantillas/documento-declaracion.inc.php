@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Doctor Barriga Fong</title>
+    <title>Dr. Barriga Fong</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description"
         content="Soy Cirujano General y Laparoscópico; con registro del Colegio Médico del Perú 56737 y Registro Nacional de Especialidad 31929. Natural de la ciudad de Trujillo, conocida como la Ciudad de la Eterna Primavera. Soy parte de diversas ONG como Misión Caritas Felices, Healing The Children y Mercy Mission, realizando operaciones gratuitas y con resultados positivos.">
