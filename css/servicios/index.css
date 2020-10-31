@@ -23,30 +23,32 @@
   justify-content: space-around;
 }
 .bg-box-service {
-  background: #35447c;
+  background: initial;
   height: 170px;
-  padding: 33px 40px;
+  padding: 0px 12px;
   border-radius: 40px;
-  display: none;
+  /* display: none; */
 }
 .grid-box-service {
   display: grid;
-  grid-template-columns: 10% 10% 17% 13% 9% 9% 8% 10% 9%;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.5em;
 }
 .content-service {
   text-align: center;
   border: 1px solid #5fc4e1;
   border-radius: 20px;
-  height: 105px;
+  height: 50px;
   transition: all 0.3s ease-in;
+  display: grid;
+  align-items: center;
 }
 .content-service p {
   color: white;
   margin: 0;
   font-family: "Montserrat Medium";
-  font-size: 12px;
-  margin-top: 0.5em;
+  font-size: 9px;
+  margin-top: 0;
   height: 45%;
 }
 .content-service:hover {
@@ -58,6 +60,7 @@
 }
 .img-circle {
   margin-top: 0.4em;
+  display: none;
 }
 
 /***********************/
@@ -161,7 +164,7 @@
   font-family: "Montserrat ExtraBold";
   text-align: center;
   line-height: 30px;
-  font-size: 39px;
+  font-size: 32px;
 }
 .bg-title-service p {
   margin: 0;
@@ -254,12 +257,13 @@
   font-family: "Montserrat Regular";
   padding-right: 1em;
 }
+
 @media screen and (min-width: 768px) {
   .bg-title-service p {
     font-size: 85px;
   }
   .bg-title-service-op p {
-    font-size: 85px;
+    font-size: 70px;
   }
   .grid-title-service h1 {
     font-size: 30px;
@@ -281,20 +285,22 @@
   .content-btn-cita {
     flex-direction: row;
   }
+  .grid-box-service {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
+
 @media screen and (min-width: 1110px) {
   .grid-title-service h1 {
     font-size: 60px;
   }
-  .bg-box-service {
-    display: block;
-  }
+
   .bg-title-service p {
     font-size: 120px;
     line-height: 70px;
   }
   .bg-title-service-op p {
-    font-size: 120px;
+    font-size: 100px;
     line-height: 70px;
   }
   .grid-info-service {
@@ -344,6 +350,27 @@
   .content-description-extra p {
     font-size: 19px;
   }
+
+  /*************************************/
+  .grid-box-service {
+    grid-template-columns: 10% 10% 17% 13% 9% 9% 8% 10% 9%;
+  }
+  .bg-box-service {
+    background: #35447c;
+    padding: 33px 40px;
+    /* display: block; */
+  }
+  .img-circle {
+    display: block;
+  }
+  .content-service {
+    height: 105px;
+  }
+
+  .content-service p {
+    margin-top: 0.5em;
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 1250px) {
@@ -351,7 +378,7 @@
     font-size: 140px;
   }
   .bg-title-service-op p {
-    font-size: 140px;
+    font-size: 117px;
   }
 }
 @media screen and (min-width: 1400px) {

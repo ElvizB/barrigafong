@@ -1,9 +1,12 @@
 .bg-banner_contact {
   position: relative;
+  height: 1050px;
+  margin: 2.5em 0;
 }
 .bg-banner_contact img {
   width: 100%;
   object-fit: cover;
+  display: none;
 }
 .grid-contact {
   display: grid;
@@ -62,6 +65,12 @@
   font-family: "Montserrat Regular";
   background: #4565ad;
   border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-enviar-contacto:hover {
+  background: white;
+  /* color: white; */
+  /* border: 2px solid #4565ad; */
 }
 .condiciones-form p {
   font-family: "Montserrat Regular";
@@ -74,7 +83,6 @@
 }
 .padding-form {
   text-align: center;
-  margin-top: 3em;
 }
 /***********************************/
 /* 
@@ -207,6 +215,13 @@
 @media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1024px) {
+  .bg-banner_contact img {
+    display: block;
+  }
+  .bg-banner_contact {
+    height: initial;
+    margin: 0;
+  }
   .grid-contact {
     grid-template-columns: repeat(2, 1fr);
   }
