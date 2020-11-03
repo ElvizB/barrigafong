@@ -198,7 +198,6 @@ include_once 'plantillas/nav/index.php';
 </section>
 
 
-
 <?php
   include_once 'plantillas/footer.php';
   include_once 'plantillas/documento-cierre.inc.php';

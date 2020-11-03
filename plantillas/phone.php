@@ -4,9 +4,9 @@
             <p>Pide cita online</p>
         </div>
     </a>
-    <a href="https://api.whatsapp.com/send?phone=51914002000&text=hola" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=51949703230&text=hola" target="_blank">
         <div class="number-cita">
-            <p>914 002 000</p>
+            <p>949 703 230</p>
         </div>
     </a>
 </div>

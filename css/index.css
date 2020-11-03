@@ -104,6 +104,25 @@ body::-webkit-scrollbar-thumb {
 /***************************************/
 
 /******************banner_home***********************/
+.content-slider {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  position: relative;
+}
+.content-slider-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: calc(0vh + 40px);
+  text-align: center;
+}
+.content-slider-img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 .u-center {
   position: absolute;
   top: 0;
@@ -114,6 +133,11 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   height: 100%;
   align-content: center;
+}
+
+.img-slider {
+  width: 100%;
+  object-fit: cover;
 }
 
 .bg-banner_home {
@@ -129,7 +153,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0;
   font-family: "Montserrat SemiBold";
   line-height: 35px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   text-shadow: 4px 5px 8px black;
 }
 .secondary-title-home {
@@ -137,17 +161,17 @@ body::-webkit-scrollbar-thumb {
   color: white;
   margin: 0;
   font-family: "Montserrat Black";
-  padding-left: 20px;
+  /* padding-left: 20px; */
   text-shadow: 4px 5px 8px black;
 }
 .subtitle_banner {
-  max-width: 690px;
+  width: 100%;
   font-size: 16px;
   font-family: "Montserrat Medium";
   margin: 0;
   line-height: 24px;
   color: white;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   text-shadow: 4px 5px 8px black;
 }
 /***********secondary home**************************/
@@ -345,15 +369,15 @@ textarea.form-control {
 @media screen and (min-width: 768px) {
   .primary-title-home {
     font-size: 70px;
-    padding-left: 50px;
+    padding: 0 20px;
   }
   .secondary-title-home {
     font-size: 70px;
-    padding-left: 50px;
+    padding: 0 20px;
   }
   .subtitle_banner {
     font-size: 24px;
-    padding-left: 50px;
+    padding: 0 20px;
   }
 
   .content-secondary-home {
@@ -438,5 +462,17 @@ textarea.form-control {
   }
   .u-spacing-line {
     margin-bottom: 2em;
+  }
+  /****BANNER - SLIDER ***********/
+  .content-slider {
+    grid-template-columns: 65% 35%;
+  }
+  .content-slider-title {
+    position: initial;
+    bottom: initial;
+    text-align: initial;
+  }
+  .subtitle_banner {
+    width: 690px;
   }
 }

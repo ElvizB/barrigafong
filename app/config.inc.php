@@ -7,7 +7,7 @@
 
 //rutas de la web
 //https://barrigafong.herokuapp.com/
-//http://localhost/fongperu
+//http://localhost/barrigafong
 
 define("SERVIDOR", "https://barrigafong.herokuapp.com/");
 // define("RUTA_SERVICIOS", SERVIDOR."servicios");
