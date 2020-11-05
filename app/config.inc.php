@@ -7,9 +7,9 @@
 
 //rutas de la web
 //https://barrigafong.herokuapp.com/
-//http://localhost/barrigafong
+//http://localhost/barrigafong/
 
-define("SERVIDOR", "https://barrigafong.herokuapp.com/");
+define("SERVIDOR", "http://localhost/barrigafong/");
 // define("RUTA_SERVICIOS", SERVIDOR."servicios");
 define("RUTA_CONTACTO", SERVIDOR."contacto");
 define("RUTA_LOCALES", SERVIDOR."locales");

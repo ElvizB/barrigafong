@@ -27,7 +27,7 @@
                           </div>
                           <div class="content-slider-img">
                               <img loading="lazy" src="<?php echo RUTA_IMG?>home/slider/img1.png" draggable="false"
-                                  class="" height="717" />
+                                  class="" height="800" />
                           </div>
                       </div>
                   </div>
@@ -52,7 +52,7 @@
                           </div>
                           <div class="content-slider-img">
                               <img loading="lazy" src="<?php echo RUTA_IMG?>home/slider/img2.png" draggable="false"
-                                  class="" height="717" />
+                                  class="" height="800" />
                           </div>
                       </div>
                   </div>
@@ -77,7 +77,7 @@
                           </div>
                           <div class="content-slider-img">
                               <img loading="lazy" src="<?php echo RUTA_IMG?>home/slider/img3.png" draggable="false"
-                                  class="" height="717" />
+                                  class="" height="800" />
                           </div>
                       </div>
                   </div>
@@ -103,7 +103,7 @@
                           </div>
                           <div class="content-slider-img">
                               <img loading="lazy" src="<?php echo RUTA_IMG?>home/slider/img4.png" draggable="false"
-                                  class="" height="717" />
+                                  class="" height="800" />
                           </div>
                       </div>
                   </div>
