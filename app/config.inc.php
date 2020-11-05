@@ -9,7 +9,7 @@
 //https://barrigafong.herokuapp.com/
 //http://localhost/barrigafong/
 
-define("SERVIDOR", "http://localhost/barrigafong/");
+define("SERVIDOR", "https://barrigafong.herokuapp.com/");
 // define("RUTA_SERVICIOS", SERVIDOR."servicios");
 define("RUTA_CONTACTO", SERVIDOR."contacto");
 define("RUTA_LOCALES", SERVIDOR."locales");

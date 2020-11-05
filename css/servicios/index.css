@@ -284,9 +284,13 @@
   }
   .content-btn-cita {
     flex-direction: row;
+    gap: 1em;
   }
   .grid-box-service {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .btn-cita {
+    margin-bottom: 0em;
   }
 }
 
