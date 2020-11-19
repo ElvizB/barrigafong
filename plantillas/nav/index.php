@@ -110,7 +110,7 @@
                         <a href="<?php echo SERVIDOR ?>">INICIO</a>
                     </li>
                     <li>
-                        <a>SERVICIOS<i class="icono derecha fa fa-chevron-down"></i></a>
+                        <a>SERVICIOS<span class="arrow-bottom"></span></a>
                         <ul class="drop-menu-nav">
                             <li>
                                 <a href="<?php echo RUTA_CL ?>">
@@ -178,14 +178,6 @@
                     <li>
                         <a href="<?php echo RUTA_CONTACTO ?>">CONTACTO</a>
                     </li>
-                    <div class="bg-language-m">
-                        <a href="changelanguage.php?language=es" class="pr-3">
-                            <img src="images/ban-es.png" alt="">
-                        </a>
-                        <a href="changelanguage.php?language=en">
-                            <img src="images/ban-en.png" alt="">
-                        </a>
-                    </div>
                 </ul>
             </div>
         </nav>

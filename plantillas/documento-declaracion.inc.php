@@ -12,18 +12,19 @@
     <meta name="theme-color" content="#4565ad">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.png">
+    <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
+
     <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>boostrap/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>boostrap/mdb.min.css" rel="stylesheet">
 
     <link href="<?php echo RUTA_CSS?>owl/owl.carousel.min.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>owl/owl.theme.default.min.css" rel="stylesheet">
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>menu/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>servicios/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">

@@ -17,11 +17,12 @@
   display: grid;
   grid-template-columns: 15% 85%;
   align-items: center;
+  color: white !important;
 }
 .grid-info-footer p {
   margin: 0;
   font-family: "Montserrat Medium";
-  color: white;
+  color: white !important;
   font-size: 18px;
 }
 .footer-title {
@@ -51,9 +52,12 @@
   color: white;
   font-size: 18px;
 }
-.footer-redes {
+/* .footer-redes {
   display: flex;
   gap: 1em;
+} */
+.footer-redes a {
+  padding-right: 1em;
 }
 b,
 strong {

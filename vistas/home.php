@@ -44,7 +44,7 @@ include_once 'plantillas/nav/index.php';
         </div>
         <div class="bg-hoja-vida">
             <div class="grid-hoja-vida">
-                <h1>HOLA</h1>
+                <!-- <h1>HOLA</h1> -->
                 <p>
                     Soy Cirujano General y Laparoscópico; con registro del Colegio Médico del Perú 56737 y Registro
                     Nacional de Especialidad 31929. Natural de la ciudad de Trujillo, conocida como la Ciudad de la
