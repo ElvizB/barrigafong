@@ -4,19 +4,18 @@
         <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist" aria-multiselectable="true">
 
             <!-- Accordion card -->
-            <div class="card rounded__content z-depth-1">
+            <div class="card">
 
                 <!-- Card header -->
-                <div class="card-header content__plan" role="tab" id="heading2">
+                <div class="card-header" role="tab" id="heading2">
 
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse2"
-                        aria-expanded="false" aria-controls="collapse2">
+                    <a>
 
                         <div class="title-service-movil">
-                            <span class="pl-1 font-montserrat-medium">SERVICIOS</span>
-                            <div class="text-right">
+                            <span class="text-center">SERVICIOS</span>
+                            <!-- <div class="text-right">
                                 <span class="arrow-bottom"></span>
-                            </div>
+                            </div> -->
                         </div>
 
                     </a>
@@ -24,8 +23,8 @@
                 </div>
 
                 <!-- Card body -->
-                <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2"
-                    data-parent="#accordionEx7">
+                <div id="collapse2" class="collapse show" role="tabpanel" aria-labelledby="heading2"
+                    data-parent="#accordionEx">
                     <div class="card-body">
 
                         <ul class="list-servicios-home">
@@ -80,9 +79,7 @@
                 </div>
             </div>
             <!-- Accordion card -->
-
         </div>
         <!--/.Accordion wrapper-->
-
     </div>
 </div>

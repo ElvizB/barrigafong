@@ -259,8 +259,9 @@
   padding-right: 1em;
 }
 .title-service-movil {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  text-align: center;
 }
 .title-service-movil span {
   font-family: "Montserrat SemiBold";
