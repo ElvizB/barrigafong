@@ -97,7 +97,7 @@
             <div class="img-movil-logo">
                 <div class="grid-img-movil-logo">
                     <a href="<?php echo SERVIDOR ?>">
-                        <img src="<?php echo RUTA_IMG?>logo.png" draggable="false" class="img-fluid" />
+                        <img src="<?php echo RUTA_IMG?>logo.png" draggable="false" class="img-fluid logo-bar" />
                     </a>
                 </div>
             </div>

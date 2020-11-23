@@ -14,7 +14,7 @@
   height: 100%;
   align-content: center;
   /* justify-content: center; */
-  padding: 24px 0px;
+  padding: 15px 0px;
   /* box-shadow: inset 5px -2px 20px 0px rgba(0, 0, 0, 0.1); */
 }
 .descriptions-local {
@@ -62,6 +62,14 @@
 }
 /****END**BOX-ARROW-LEFT*******/
 
+.title-locales-m {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat Regular";
+  font-weight: bold;
+  margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   .grid-locales-two {
     display: grid;
@@ -73,6 +81,9 @@
   .arrow {
     width: 500px;
     padding: 20px 0 0 46px;
+  }
+  .title-locales-m {
+    display: none;
   }
 }
 @media screen and (min-width: 1024px) {

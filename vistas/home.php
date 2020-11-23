@@ -123,6 +123,7 @@ include_once 'plantillas/nav/index.php';
                         </div>
                         <div class="info-servicios">
                             <div class="grid-info-servicios">
+                                <h2 class="title-servicio-m">servicios quirúrgicos</h2>
                                 <h2 class="title-servicio">servicios</h2>
                                 <h2 class="tltle-quirurgico">quirúrgicos</h2>
                                 <ul class="list-servicios-home">

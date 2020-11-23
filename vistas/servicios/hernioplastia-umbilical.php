@@ -100,6 +100,9 @@ include_once 'plantillas/nav/index.php';
 
                     </div>
                 </div>
+                <div class="service-acordion-movil">
+                    <?php  include_once 'plantillas/drop-down-movil.php';?>
+                </div>
                 <div class="bg-title-service">
                     <p>Hernioplastia umbilical</p>
                     <div class="center-grid">
@@ -181,12 +184,12 @@ include_once 'plantillas/nav/index.php';
                     <div class="content-btn-iz">
                         <a href="<?php echo RUTA_EA ?>">
                             <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/iz.png" draggable="false" />
-                            <span>Ir a anterior</span>
+                            <span>Ir al anterior</span>
                         </a>
                     </div>
                     <div class="content-btn-de">
                         <a href="<?php echo RUTA_HC ?>">
-                            <span>Ir a siguiente</span>
+                            <span>Ir al siguiente</span>
                             <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/de.png" draggable="false" />
                         </a>
                     </div>

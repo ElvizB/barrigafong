@@ -20,13 +20,14 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .bg-box-service {
   background: initial;
   height: 170px;
   padding: 0px 12px;
   border-radius: 40px;
+  display: none;
   /* display: none; */
 }
 .grid-box-service {
@@ -257,8 +258,25 @@
   font-family: "Montserrat Regular";
   padding-right: 1em;
 }
+.title-service-movil {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.title-service-movil span {
+  font-family: "Montserrat SemiBold";
+  color: #3a6ca9;
+}
+.list-servicios-home li a p {
+  margin-bottom: 0.5em;
+}
 
 @media screen and (min-width: 768px) {
+  .bg-box-service {
+    display: block;
+  }
+  .service-acordion-movil {
+    display: none;
+  }
   .bg-title-service p {
     font-size: 85px;
   }

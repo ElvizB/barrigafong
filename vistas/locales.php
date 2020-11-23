@@ -8,7 +8,9 @@ include_once 'plantillas/nav/index.php';
 <section class="banner_home">
     <div class="bg-banner_home">
         <img loading="lazy" src="<?php echo RUTA_IMG?>locales/bg_local.png" draggable="false" height="1953" />
+
         <div class="u-center pt-5">
+            <h2 class="title-locales-m">nuestros locales</h2>
             <div class="grid-locales">
                 <div class="info-local wow fadeIn" data-wow-delay="0.4s">
                     <div class="arrow descriptions-local">

@@ -100,6 +100,9 @@ include_once 'plantillas/nav/index.php';
 
                     </div>
                 </div>
+                <div class="service-acordion-movil">
+                    <?php  include_once 'plantillas/drop-down-movil.php';?>
+                </div>
                 <div class="bg-title-service">
                     <p>Colecistectomía laparoscópica </p>
                     <div class="center-grid">
@@ -187,7 +190,7 @@ include_once 'plantillas/nav/index.php';
                     </div>
                     <div class="content-btn-de">
                         <a href="<?php echo RUTA_AL ?>">
-                            <span>Ir a siguiente</span>
+                            <span>Ir al siguiente</span>
                             <img loading="lazy" src="<?php echo RUTA_IMG?>servicios/de.png" draggable="false" />
                         </a>
                     </div>
@@ -195,6 +198,10 @@ include_once 'plantillas/nav/index.php';
             </div>
         </div>
     </div>
+</section>
+
+<section>
+
 </section>
 
 

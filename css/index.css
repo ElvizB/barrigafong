@@ -31,7 +31,7 @@
   src: url("../fonts/Montserrat-ExtraBold.ttf");
 }
 @font-face {
-  font-family: "Timeout-Regular";
+  font-family: "Timeout Regular";
   src: url("../fonts/Timeout-Regular.otf");
 }
 
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  bottom: calc(0vh + 40px);
+  bottom: calc(0vh + 20px);
   text-align: center;
 }
 .content-slider-img {
@@ -181,7 +181,7 @@ body::-webkit-scrollbar-thumb {
 .bg-secondary-home img {
   width: 100%;
   object-fit: cover;
-  height: 65vh;
+  height: 60vh;
 }
 .content-secondary-home {
   width: 100%;
@@ -251,7 +251,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 45px;
   color: white;
   text-align: center;
-  font-family: "Timeout-Regular";
+  font-family: "Timeout Regular";
   padding: 13px 0;
 }
 .grid-btn-vida {
@@ -308,6 +308,15 @@ body::-webkit-scrollbar-thumb {
   padding-left: 1em;
   list-style-image: url(./../images/home/cuadro.png);
 }
+.title-servicio-m {
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1.5px black;
+  font-family: "Montserrat ExtraBold";
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 1em;
+}
 .title-servicio {
   text-transform: uppercase;
   color: transparent;
@@ -315,6 +324,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "Montserrat ExtraBold";
   font-size: 40px;
   text-align: center;
+  display: none;
 }
 .tltle-quirurgico {
   text-transform: uppercase;
@@ -324,6 +334,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 40px;
   padding-left: 0em;
   text-align: center;
+  display: none;
 }
 .grid-info-servicios {
   display: grid;
@@ -335,7 +346,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .img-bg-servicios img {
-  height: 350px;
+  height: 300px;
 }
 .grid-testimonio-img p {
   color: #6e6e6e;
@@ -366,7 +377,30 @@ body::-webkit-scrollbar-thumb {
 textarea.form-control {
   resize: none;
 }
+/*********************/
+
+.carousel {
+  height: calc(100vh - 100px);
+}
+
+.carousel-item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+/* @media (max-width: 776px) {
+  .carousel {
+    height: calc(100vh - 100px);
+  }
+} */
+
 @media screen and (min-width: 768px) {
+  .carousel {
+    height: 100%;
+  }
   .primary-title-home {
     font-size: 70px;
     padding: 0 20px;
@@ -414,6 +448,9 @@ textarea.form-control {
   }
 }
 @media screen and (min-width: 1110px) {
+  .title-servicio-m {
+    display: none;
+  }
   .grid-hoja-vida h1 {
     font-size: 120px;
     line-height: 20px;
@@ -442,11 +479,13 @@ textarea.form-control {
   .title-servicio {
     font-size: 65px;
     text-align: initial;
+    display: block;
   }
   .tltle-quirurgico {
     font-size: 65px;
     padding-left: 1em;
     text-align: initial;
+    display: block;
   }
   .list-servicios-home {
     font-size: 24px;

@@ -179,7 +179,7 @@
   color: white;
   text-transform: uppercase;
   display: inline-block;
-  font-family: "Muller Regular";
+  font-family: "Montserrat Regular";
   letter-spacing: 1px;
 }
 #menu-overlay ul li a:hover {
@@ -233,7 +233,7 @@
   display: none;
 }
 .logo-fong-movil {
-  height: 120px;
+  height: 100px;
   padding: 0 20px;
 }
 .img-movil-logo {
@@ -256,9 +256,19 @@
   display: none;
 }
 
+.logo-bar {
+  width: 200px;
+}
+.content-slider-img img {
+  height: 700px;
+}
+
 @media screen and (min-width: 768px) {
   .nav_link_u {
     grid-template-columns: 15% 15% 40% 15% 15%;
+  }
+  .logo-bar {
+    width: auto;
   }
 }
 @media screen and (min-width: 1110px) {
