@@ -311,7 +311,6 @@ body::-webkit-scrollbar-thumb {
 .title-servicio-m {
   text-transform: uppercase;
   color: #00abbf;
-  -webkit-text-stroke: 1.5px black;
   font-family: "Montserrat ExtraBold";
   font-size: 24px;
   text-align: center;
