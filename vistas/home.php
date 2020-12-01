@@ -60,7 +60,7 @@ include_once 'plantillas/nav/index.php';
                 </h2>
                 <div class="grid-btn-vida">
                     <div class="bg-btn-vida">
-                        <a href="<?php echo RUTA_PDF?>hojadevidaBF.pdf" download="hojadevidaBF" class="btn-life">
+                        <a href="<?php echo RUTA_PDF?>hojadevidaBF.pdf" target="_blank" class="btn-life">
                             Hoja de vida
                             <img loading="lazy" src="<?php echo RUTA_IMG?>home/icon_hoja.png" draggable="false"
                                 height="629" class="img-fluid" />
